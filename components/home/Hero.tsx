@@ -72,7 +72,7 @@ export default function Hero() {
           }}
         >
           才能ではなく、<br />
-          <span style={{ color: "#7A58A6", whiteSpace: "nowrap" }}>再現性を設計する。</span>
+          <span style={{ color: "#7A58A6", whiteSpace: "nowrap" }}>再現性を設計する</span>
         </motion.h1>
 
         {/* Sub */}
