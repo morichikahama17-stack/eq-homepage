@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@300;400;500;600;700&family=Shippori+Mincho:wght@400;500;700;800&family=Zen+Old+Mincho:wght@400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@300;400;500;600;700&family=Shippori+Mincho:wght@400;500;700;800&family=Noto+Serif+JP:wght@400;700;900&display=swap");
 @import "tailwindcss";
 
 * { box-sizing: border-box; }
@@ -25,8 +25,8 @@ body {
 .font-display { font-family: "Space Grotesk", "Inter", sans-serif; }
 .font-jp { font-family: "Shippori Mincho", serif; }
 
-/* Large headings → Zen Old Mincho */
-h1, h2 { font-family: 'Zen Old Mincho', serif !important; }
+/* Large headings → Noto Serif JP */
+h1, h2 { font-family: 'Noto Serif JP', serif !important; font-weight: 700; }
 
 /* Glass morphism */
 .glass {
