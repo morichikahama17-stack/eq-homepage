@@ -17,10 +17,11 @@ export default function Solution() {
       <div style={{ position: "absolute", inset: 0, background: "radial-gradient(ellipse 60% 80% at 0% 50%, rgba(122,88,166,0.07) 0%, transparent 60%)", pointerEvents: "none" }} />
 
       <div style={{ maxWidth: "1280px", margin: "0 auto", position: "relative", zIndex: 1 }}>
-        <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "80px", alignItems: "center" }}>
+        <div className="eq-solution-grid" style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "80px", alignItems: "center" }}>
           {/* Right — Logo visual */}
           <motion.div
             initial={{ opacity: 0, scale: 0.88 }} whileInView={{ opacity: 1, scale: 1 }} viewport={{ once: true }} transition={{ duration: 0.85, ease: EASE }}
+            className="eq-solution-logo"
             style={{ display: "flex", alignItems: "center", justifyContent: "center", order: 2 }}
           >
             <div style={{ position: "relative" }}>

@@ -167,4 +167,15 @@ body {
     grid-template-columns: 1fr !important;
     gap: 40px !important;
   }
+  /* Solution section */
+  .eq-solution-grid {
+    grid-template-columns: 1fr !important;
+    gap: 40px !important;
+  }
+  .eq-solution-logo {
+    order: 1 !important;
+  }
+  .eq-solution-grid > div[style*="order: 1"] {
+    order: 2 !important;
+  }
 }
