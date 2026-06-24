@@ -130,3 +130,36 @@ body {
 .animate-rotate-slow { animation: rotateSlow 40s linear infinite; }
 .animate-rotate-reverse { animation: rotateReverse 32s linear infinite; }
 .animate-glow-pulse { animation: glowPulse 5s ease-in-out infinite; }
+
+/* ── Responsive ── */
+@media (max-width: 768px) {
+  /* Profile: 2-col → 1-col */
+  .eq-profile-grid {
+    grid-template-columns: 1fr !important;
+    gap: 40px !important;
+  }
+  /* Services: 2-col row → 1-col */
+  .eq-service-row {
+    grid-template-columns: 1fr !important;
+  }
+  .eq-service-row > div:first-child {
+    border-right: none !important;
+    border-bottom: 0.5px solid rgba(255,255,255,0.07);
+  }
+  /* Page hero padding */
+  .eq-page-hero {
+    padding: 100px 20px 72px !important;
+  }
+  /* Section padding */
+  .eq-section {
+    padding: 64px 20px !important;
+  }
+  /* Staff grid */
+  .eq-staff-grid {
+    grid-template-columns: 1fr !important;
+  }
+  /* Philosophy pillars */
+  .eq-pillars-grid {
+    grid-template-columns: 1fr !important;
+  }
+}

@@ -40,7 +40,7 @@ const services = [
 export default function ServicesPage() {
   return (
     <div style={{ paddingTop: "64px" }}>
-      <section style={{ position: "relative", padding: "140px 32px 100px", background: "#000", overflow: "hidden" }}>
+      <section className="eq-page-hero" style={{ position: "relative", padding: "140px 32px 100px", background: "#000", overflow: "hidden" }}>
         <div style={{ position: "absolute", inset: 0, background: "radial-gradient(ellipse 60% 80% at 50% 0%, rgba(122,88,166,0.1) 0%, transparent 60%)", pointerEvents: "none" }} />
         <div style={{ maxWidth: "900px", margin: "0 auto", position: "relative", zIndex: 1 }}>
           <p style={{ fontFamily: "'Space Grotesk', sans-serif", fontSize: "10px", letterSpacing: "0.32em", textTransform: "uppercase", color: "#7A58A6", marginBottom: "20px" }}>Services</p>
@@ -56,7 +56,7 @@ export default function ServicesPage() {
       <section style={{ padding: "100px 32px", background: "#000" }}>
         <div style={{ maxWidth: "1280px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "2px" }}>
           {services.map((s, i) => (
-            <div key={s.en} style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "0", background: "rgba(255,255,255,0.02)", border: "0.5px solid rgba(255,255,255,0.07)", borderRadius: i === 0 ? "16px 16px 2px 2px" : i === services.length - 1 ? "2px 2px 16px 16px" : "2px", overflow: "hidden", position: "relative" }}>
+            <div key={s.en} className="eq-service-row" style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "0", background: "rgba(255,255,255,0.02)", border: "0.5px solid rgba(255,255,255,0.07)", borderRadius: i === 0 ? "16px 16px 2px 2px" : i === services.length - 1 ? "2px 2px 16px 16px" : "2px", overflow: "hidden", position: "relative" }}>
               <div style={{ position: "absolute", top: 0, left: 0, right: 0, height: "0.5px", background: "linear-gradient(90deg,transparent,rgba(122,88,166,0.35),transparent)" }} />
               <div style={{ padding: "48px 40px", borderRight: "0.5px solid rgba(255,255,255,0.07)" }}>
                 <div style={{ display: "flex", alignItems: "center", gap: "12px", marginBottom: "20px" }}>

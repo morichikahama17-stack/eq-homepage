@@ -41,7 +41,7 @@ export default function Stats() {
           initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.7, ease: EASE }}
           style={{ display: "flex", flexWrap: "wrap", gap: "10px", marginBottom: "48px" }}
         >
-          {["甲子園優勝投手 在籍", "大学日本一投手 在籍", "日本代表選手 多数在籍"].map((label) => (
+          {["甲子園優勝投手", "大学日本一投手", "NPB選手", "日本代表選手"].map((label) => (
             <div key={label} style={{ display: "inline-flex", alignItems: "center", gap: "8px", padding: "10px 20px", borderRadius: "100px", border: "0.5px solid rgba(122,88,166,0.4)", background: "rgba(122,88,166,0.08)" }}>
               <span style={{ width: "5px", height: "5px", borderRadius: "50%", background: "#7A58A6", flexShrink: 0 }} />
               <span style={{ fontFamily: "'Noto Sans JP', sans-serif", fontSize: "12px", letterSpacing: "0.06em", color: "rgba(255,255,255,0.65)" }}>{label}</span>

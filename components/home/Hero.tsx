@@ -122,7 +122,7 @@ export default function Hero() {
           transition={{ delay: 1.2, duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
           style={{ display: "flex", gap: "10px", flexWrap: "wrap", justifyContent: "center", marginTop: "28px" }}
         >
-          {["甲子園優勝投手 在籍", "大学日本一投手 在籍", "日本代表選手 多数在籍"].map((label) => (
+          {["甲子園優勝投手", "大学日本一投手", "NPB選手", "日本代表選手"].map((label) => (
             <span key={label} style={{ fontFamily: "'Noto Sans JP', sans-serif", fontSize: "10px", letterSpacing: "0.06em", color: "rgba(255,255,255,0.38)", border: "0.5px solid rgba(255,255,255,0.12)", borderRadius: "100px", padding: "5px 14px", whiteSpace: "nowrap", background: "rgba(255,255,255,0.03)" }}>
               {label}
             </span>
