@@ -1,0 +1,68 @@
+<svg viewBox="0 0 500 480" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <clipPath id="hc">
+      <polygon points="108,26 392,26 484,240 392,454 108,454 16,240"/>
+    </clipPath>
+    <clipPath id="lfc">
+      <polygon points="16,240 108,26 178,150 252,150 252,454 108,454"/>
+    </clipPath>
+    <clipPath id="rfc">
+      <polygon points="392,26 484,240 392,454 252,454 252,150 322,150"/>
+    </clipPath>
+  </defs>
+
+  <!-- ── TOP FACE ── -->
+  <polygon points="108,26 392,26 322,150 178,150" fill="#4A3272" clip-path="url(#hc)"/>
+
+  <!-- ── LEFT FACE: dark base ── -->
+  <polygon points="16,240 108,26 178,150 252,150 252,454 108,454" fill="#2A1848" clip-path="url(#hc)"/>
+
+  <!-- ── LEFT FACE: E bars (lighter purple) ── -->
+  <!-- E bar TOP (full width to center ridge) -->
+  <polygon points="16,240 108,26 252,26 252,210 16,270" fill="#7A58A6" clip-path="url(#lfc)"/>
+  <!-- E bar MIDDLE (shorter – stops before center ridge) -->
+  <polygon points="16,303 108,236 200,236 200,296 16,360" fill="#7A58A6" clip-path="url(#lfc)"/>
+  <!-- E bar BOTTOM (full width) -->
+  <polygon points="16,395 108,350 252,350 252,454 108,454 16,454" fill="#7A58A6" clip-path="url(#lfc)"/>
+
+  <!-- ── RIGHT FACE: base purple ── -->
+  <polygon points="392,26 484,240 392,454 252,454 252,150 322,150" fill="#7A58A6" clip-path="url(#hc)"/>
+  <!-- Q letter: dark inner rectangle (the "hole") -->
+  <rect x="292" y="198" width="130" height="150" rx="4" fill="#1E0F3A" clip-path="url(#rfc)"/>
+  <!-- Q inner highlight border (inner face of hole) -->
+  <rect x="292" y="198" width="130" height="150" rx="4" fill="none" stroke="#4A3272" stroke-width="4" clip-path="url(#rfc)"/>
+
+  <!-- ══ BLACK OUTLINES ══ -->
+  <!-- Outer hexagon -->
+  <polygon
+    points="108,26 392,26 484,240 392,454 108,454 16,240"
+    fill="none" stroke="#000" stroke-width="18" stroke-linejoin="round"
+  />
+  <!-- Top face boundary -->
+  <polygon
+    points="108,26 392,26 322,150 178,150"
+    fill="none" stroke="#000" stroke-width="10" stroke-linejoin="round"
+  />
+  <!-- Center vertical ridge (L/R divider) -->
+  <line x1="252" y1="150" x2="252" y2="454" stroke="#000" stroke-width="10"/>
+  <!-- Top face horizontal bottom edge -->
+  <line x1="178" y1="150" x2="322" y2="150" stroke="#000" stroke-width="10"/>
+
+  <!-- E bar separators on left face -->
+  <!-- Top of gap 1 -->
+  <line x1="16" y1="270" x2="252" y2="210" stroke="#000" stroke-width="8"/>
+  <!-- Bottom of gap 1 / top of middle bar -->
+  <line x1="16" y1="303" x2="252" y2="248" stroke="#000" stroke-width="8"/>
+  <!-- Right edge of middle bar (shorter) -->
+  <line x1="200" y1="236" x2="200" y2="296" stroke="#000" stroke-width="8"/>
+  <!-- Bottom of gap 2 / top of bottom bar -->
+  <line x1="16" y1="360" x2="252" y2="316" stroke="#000" stroke-width="8"/>
+  <!-- Top of gap 2 -->
+  <line x1="16" y1="395" x2="252" y2="350" stroke="#000" stroke-width="8"/>
+
+  <!-- Q hole outline -->
+  <rect x="292" y="198" width="130" height="150" rx="4"
+    fill="none" stroke="#000" stroke-width="8"
+    clip-path="url(#rfc)"
+  />
+</svg>

@@ -1,26 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@300;400;500;600;700&family=Noto+Sans+JP:wght@300;400;500;700;900&display=swap");
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+* { box-sizing: border-box; }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: #000000;
+  color: #ffffff;
+  font-family: "Inter", "Noto Sans JP", sans-serif;
+  overflow-x: hidden;
 }
+
+::selection { background: rgba(122,88,166,0.35); color: #fff; }
+::-webkit-scrollbar { width: 3px; }
+::-webkit-scrollbar-track { background: #000; }
+::-webkit-scrollbar-thumb { background: #7A58A6; border-radius: 2px; }
+
+/* Font families */
+.font-display { font-family: "Space Grotesk", "Inter", sans-serif; }
+.font-jp { font-family: "Noto Sans JP", sans-serif; }
+
+/* Glass morphism */
+.glass {
+  background: rgba(255,255,255,0.03);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border: 0.5px solid rgba(255,255,255,0.08);
+}
+.glass-purple {
+  background: rgba(122,88,166,0.07);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border: 0.5px solid rgba(122,88,166,0.22);
+}
+.glass-dark {
+  background: rgba(0,0,0,0.55);
+  backdrop-filter: blur(32px);
+  -webkit-backdrop-filter: blur(32px);
+  border: 0.5px solid rgba(255,255,255,0.06);
+}
+
+/* Text gradients */
+.text-gradient-white {
+  background: linear-gradient(160deg,#fff 0%,rgba(255,255,255,0.65) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.text-gradient-purple {
+  background: linear-gradient(135deg,#9B7CC8 0%,#7A58A6 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Glows */
+.purple-glow { box-shadow: 0 0 80px rgba(122,88,166,0.28), 0 0 160px rgba(122,88,166,0.08); }
+.purple-glow-sm { box-shadow: 0 0 32px rgba(122,88,166,0.18); }
+
+/* Hover card */
+.card-hover {
+  transition: transform 0.3s cubic-bezier(0.22,1,0.36,1), border-color 0.3s ease, box-shadow 0.3s ease;
+}
+.card-hover:hover {
+  transform: translateY(-3px);
+  border-color: rgba(122,88,166,0.4) !important;
+  box-shadow: 0 12px 48px rgba(122,88,166,0.14);
+}
+
+/* Grid backgrounds */
+.grid-bg {
+  background-image:
+    linear-gradient(rgba(255,255,255,0.025) 1px,transparent 1px),
+    linear-gradient(90deg,rgba(255,255,255,0.025) 1px,transparent 1px);
+  background-size: 64px 64px;
+}
+.grid-bg-fine {
+  background-image:
+    linear-gradient(rgba(255,255,255,0.015) 1px,transparent 1px),
+    linear-gradient(90deg,rgba(255,255,255,0.015) 1px,transparent 1px);
+  background-size: 32px 32px;
+}
+
+/* Dividers */
+.divider { display: block; height: 0.5px; background: linear-gradient(90deg,transparent,rgba(255,255,255,0.07),transparent); }
+.divider-purple { display: block; height: 0.5px; background: linear-gradient(90deg,transparent,rgba(122,88,166,0.45),transparent); }
+
+/* Eyebrow label */
+.eyebrow {
+  display: inline-block;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 10px;
+  letter-spacing: 0.32em;
+  text-transform: uppercase;
+  color: #7A58A6;
+}
+
+/* Section separator */
+.sep { display: block; width: 28px; height: 0.5px; background: #7A58A6; margin: 1.25rem 0; }
+
+/* Animations */
+@keyframes hexFloat {
+  0%,100% { transform: translateY(0) rotate(0deg); }
+  50% { transform: translateY(-16px) rotate(3deg); }
+}
+@keyframes rotateSlow {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+@keyframes rotateReverse {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(-360deg); }
+}
+@keyframes glowPulse {
+  0%,100% { opacity: 0.3; }
+  50% { opacity: 0.7; }
+}
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(32px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-hex-float { animation: hexFloat 9s ease-in-out infinite; }
+.animate-rotate-slow { animation: rotateSlow 40s linear infinite; }
+.animate-rotate-reverse { animation: rotateReverse 32s linear infinite; }
+.animate-glow-pulse { animation: glowPulse 5s ease-in-out infinite; }
