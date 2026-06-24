@@ -162,4 +162,9 @@ body {
   .eq-pillars-grid {
     grid-template-columns: 1fr !important;
   }
+  /* Problem section */
+  .eq-problem-grid {
+    grid-template-columns: 1fr !important;
+    gap: 40px !important;
+  }
 }
