@@ -30,7 +30,7 @@ export default function Footer() {
               <EQLogo size={34} />
               <span style={{ fontFamily: "'Space Grotesk', sans-serif", fontSize: "13px", fontWeight: 600, letterSpacing: "0.14em", textTransform: "uppercase", color: "rgba(255,255,255,0.75)" }}>Essential Qualities</span>
             </div>
-            <p style={{ fontFamily: "'Noto Sans JP', sans-serif", fontSize: "13px", lineHeight: 2.0, letterSpacing: "0.04em", color: "rgba(255,255,255,0.28)", maxWidth: "280px" }}>
+            <p style={{ fontFamily: "'Shippori Mincho', sans-serif", fontSize: "13px", lineHeight: 2.0, letterSpacing: "0.04em", color: "rgba(255,255,255,0.28)", maxWidth: "280px" }}>
               才能ではなく、再現性を設計する。<br />
               身体・思考・データを統合し、<br />
               圧倒的な進化を生み出す。
@@ -65,7 +65,7 @@ export default function Footer() {
             <ul style={{ listStyle: "none", padding: 0, margin: 0, display: "flex", flexDirection: "column", gap: "12px" }}>
               {col1.map((l) => (
                 <li key={l.href}>
-                  <Link href={l.href} style={{ fontFamily: "'Noto Sans JP', sans-serif", fontSize: "13px", letterSpacing: "0.04em", color: "rgba(255,255,255,0.38)", textDecoration: "none", transition: "color 0.2s" }} className="eq-footer-link">
+                  <Link href={l.href} style={{ fontFamily: "'Shippori Mincho', sans-serif", fontSize: "13px", letterSpacing: "0.04em", color: "rgba(255,255,255,0.38)", textDecoration: "none", transition: "color 0.2s" }} className="eq-footer-link">
                     {l.label}
                   </Link>
                 </li>
@@ -79,7 +79,7 @@ export default function Footer() {
             <ul style={{ listStyle: "none", padding: 0, margin: 0, display: "flex", flexDirection: "column", gap: "12px" }}>
               {col2.map((l) => (
                 <li key={l.href}>
-                  <Link href={l.href} style={{ fontFamily: "'Noto Sans JP', sans-serif", fontSize: "13px", letterSpacing: "0.04em", color: "rgba(255,255,255,0.38)", textDecoration: "none", transition: "color 0.2s" }} className="eq-footer-link">
+                  <Link href={l.href} style={{ fontFamily: "'Shippori Mincho', sans-serif", fontSize: "13px", letterSpacing: "0.04em", color: "rgba(255,255,255,0.38)", textDecoration: "none", transition: "color 0.2s" }} className="eq-footer-link">
                     {l.label}
                   </Link>
                 </li>
@@ -90,7 +90,7 @@ export default function Footer() {
           {/* Location */}
           <div>
             <p style={{ fontFamily: "'Space Grotesk', sans-serif", fontSize: "9px", letterSpacing: "0.24em", textTransform: "uppercase", color: "rgba(255,255,255,0.22)", marginBottom: "20px" }}>Location</p>
-            <address style={{ fontStyle: "normal", fontFamily: "'Noto Sans JP', sans-serif", fontSize: "13px", lineHeight: 2.0, letterSpacing: "0.04em", color: "rgba(255,255,255,0.35)" }}>
+            <address style={{ fontStyle: "normal", fontFamily: "'Shippori Mincho', sans-serif", fontSize: "13px", lineHeight: 2.0, letterSpacing: "0.04em", color: "rgba(255,255,255,0.35)" }}>
               〒553-0006<br />
               大阪府大阪市福島区<br />
               吉野2−3−14 DAY ONE
@@ -104,7 +104,7 @@ export default function Footer() {
           </p>
           <div style={{ display: "flex", gap: "24px" }}>
             {[{ label: "利用規約", href: "#" }, { label: "プライバシーポリシー", href: "#" }, { label: "特定商取引法", href: "#" }].map((l) => (
-              <a key={l.label} href={l.href} style={{ fontFamily: "'Noto Sans JP', sans-serif", fontSize: "11px", color: "rgba(255,255,255,0.2)", textDecoration: "none", transition: "color 0.2s" }} className="eq-footer-link">
+              <a key={l.label} href={l.href} style={{ fontFamily: "'Shippori Mincho', sans-serif", fontSize: "11px", color: "rgba(255,255,255,0.2)", textDecoration: "none", transition: "color 0.2s" }} className="eq-footer-link">
                 {l.label}
               </a>
             ))}

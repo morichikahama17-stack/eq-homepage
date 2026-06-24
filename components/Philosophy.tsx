@@ -108,7 +108,7 @@ export default function Philosophy() {
 
               <p
                 className="text-white/35 transition-colors duration-250 group-hover:text-white/55 ml-auto max-w-xs text-right hidden sm:block"
-                style={{ fontFamily: "'Noto Sans JP', sans-serif", fontSize: "13px", lineHeight: 1.9, letterSpacing: "0.04em" }}
+                style={{ fontFamily: "'Shippori Mincho', sans-serif", fontSize: "13px", lineHeight: 1.9, letterSpacing: "0.04em" }}
               >
                 {kw.desc}
               </p>

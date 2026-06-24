@@ -29,7 +29,7 @@ export default function FounderMessage() {
                 <span style={{ fontFamily: "'Space Grotesk', sans-serif", fontWeight: 700, fontSize: "15px", color: "#9B7CC8" }}>濱</span>
               </div>
               <div>
-                <p style={{ fontFamily: "'Noto Sans JP', sans-serif", fontSize: "15px", fontWeight: 500, color: "rgba(255,255,255,0.8)", marginBottom: "4px" }}>濱 盛力</p>
+                <p style={{ fontFamily: "'Shippori Mincho', sans-serif", fontSize: "15px", fontWeight: 500, color: "rgba(255,255,255,0.8)", marginBottom: "4px" }}>濱 盛力</p>
                 <p style={{ fontFamily: "'Space Grotesk', sans-serif", fontSize: "10px", letterSpacing: "0.1em", color: "rgba(255,255,255,0.3)" }}>Founder & CEO, Essential Qualities</p>
                 <a href="https://www.instagram.com/morichika_hama_eq" target="_blank" rel="noopener noreferrer"
                   style={{ fontFamily: "'Space Grotesk', sans-serif", fontSize: "10px", letterSpacing: "0.06em", color: "rgba(255,255,255,0.25)", textDecoration: "none", transition: "color 0.2s" }}
@@ -64,7 +64,7 @@ export default function FounderMessage() {
                 <motion.p
                   key={i}
                   initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: 0.2 + i * 0.1, duration: 0.65, ease: EASE }}
-                  style={{ fontFamily: "'Noto Sans JP', sans-serif", fontSize: "14px", lineHeight: 2.1, letterSpacing: "0.04em", color: "rgba(255,255,255,0.48)" }}
+                  style={{ fontFamily: "'Shippori Mincho', sans-serif", fontSize: "14px", lineHeight: 2.1, letterSpacing: "0.04em", color: "rgba(255,255,255,0.48)" }}
                 >
                   {text}
                 </motion.p>

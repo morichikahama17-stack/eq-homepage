@@ -19,7 +19,7 @@ function FAQItem({ q, a, isLast }: { q: string; a: string; isLast: boolean }) {
         onClick={() => setOpen(!open)}
         style={{ width: "100%", display: "flex", alignItems: "center", justifyContent: "space-between", padding: "24px 0", background: "none", border: "none", cursor: "pointer", textAlign: "left" }}
       >
-        <span style={{ fontFamily: "'Noto Sans JP', sans-serif", fontSize: "15px", fontWeight: 400, letterSpacing: "0.04em", color: open ? "#fff" : "rgba(255,255,255,0.65)", transition: "color 0.2s", paddingRight: "24px" }}>{q}</span>
+        <span style={{ fontFamily: "'Shippori Mincho', sans-serif", fontSize: "15px", fontWeight: 400, letterSpacing: "0.04em", color: open ? "#fff" : "rgba(255,255,255,0.65)", transition: "color 0.2s", paddingRight: "24px" }}>{q}</span>
         <motion.span
           animate={{ rotate: open ? 45 : 0 }}
           transition={{ duration: 0.25 }}
@@ -35,7 +35,7 @@ function FAQItem({ q, a, isLast }: { q: string; a: string; isLast: boolean }) {
             transition={{ duration: 0.35, ease: EASE }}
             style={{ overflow: "hidden" }}
           >
-            <p style={{ fontFamily: "'Noto Sans JP', sans-serif", fontSize: "14px", lineHeight: 2.0, letterSpacing: "0.04em", color: "rgba(255,255,255,0.45)", paddingBottom: "24px" }}>{a}</p>
+            <p style={{ fontFamily: "'Shippori Mincho', sans-serif", fontSize: "14px", lineHeight: 2.0, letterSpacing: "0.04em", color: "rgba(255,255,255,0.45)", paddingBottom: "24px" }}>{a}</p>
           </motion.div>
         )}
       </AnimatePresence>

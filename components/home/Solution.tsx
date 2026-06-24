@@ -46,7 +46,7 @@ export default function Solution() {
             </motion.h2>
             <motion.p
               initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: 0.18, duration: 0.7, ease: EASE }}
-              style={{ fontFamily: "'Noto Sans JP', sans-serif", fontSize: "14px", lineHeight: 2.1, letterSpacing: "0.04em", color: "rgba(255,255,255,0.4)", marginBottom: "44px" }}
+              style={{ fontFamily: "'Shippori Mincho', sans-serif", fontSize: "14px", lineHeight: 2.1, letterSpacing: "0.04em", color: "rgba(255,255,255,0.4)", marginBottom: "44px" }}
             >
               感覚論を排し、科学と論理だけを武器に。<br />
               あなたの身体に内在するポテンシャルを<br />
@@ -66,7 +66,7 @@ export default function Solution() {
                   </span>
                   <div>
                     <p style={{ fontFamily: "'Space Grotesk', sans-serif", fontSize: "14px", fontWeight: 600, color: "rgba(255,255,255,0.78)", marginBottom: "6px", letterSpacing: "0.02em" }}>{pt.label}</p>
-                    <p style={{ fontFamily: "'Noto Sans JP', sans-serif", fontSize: "13px", lineHeight: 1.95, letterSpacing: "0.04em", color: "rgba(255,255,255,0.36)" }}>{pt.body}</p>
+                    <p style={{ fontFamily: "'Shippori Mincho', sans-serif", fontSize: "13px", lineHeight: 1.95, letterSpacing: "0.04em", color: "rgba(255,255,255,0.36)" }}>{pt.body}</p>
                   </div>
                 </motion.div>
               ))}

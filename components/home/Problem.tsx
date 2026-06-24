@@ -48,7 +48,7 @@ export default function Problem() {
             </motion.h2>
             <motion.p
               initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: 0.2, duration: 0.7, ease: EASE }}
-              style={{ fontFamily: "'Noto Sans JP', sans-serif", fontSize: "14px", lineHeight: 2.1, letterSpacing: "0.04em", color: "rgba(255,255,255,0.38)" }}
+              style={{ fontFamily: "'Shippori Mincho', sans-serif", fontSize: "14px", lineHeight: 2.1, letterSpacing: "0.04em", color: "rgba(255,255,255,0.38)" }}
             >
               努力が足りないのではありません。<br />
               正しい問いを立てられていないだけです。
@@ -69,7 +69,7 @@ export default function Problem() {
                   <span style={{ fontFamily: "'Space Grotesk', sans-serif", fontSize: "11px", letterSpacing: "0.08em", color: "rgba(122,88,166,0.5)", flexShrink: 0, paddingTop: "3px" }}>{p.num}</span>
                   <div>
                     <p style={{ fontFamily: "'Space Grotesk', sans-serif", fontSize: "16px", fontWeight: 600, letterSpacing: "0.02em", marginBottom: "12px", color: "rgba(255,255,255,0.82)" }}>{p.title}</p>
-                    <p style={{ fontFamily: "'Noto Sans JP', sans-serif", fontSize: "13px", lineHeight: 2.1, letterSpacing: "0.04em", color: "rgba(255,255,255,0.38)" }}>{p.body}</p>
+                    <p style={{ fontFamily: "'Shippori Mincho', sans-serif", fontSize: "13px", lineHeight: 2.1, letterSpacing: "0.04em", color: "rgba(255,255,255,0.38)" }}>{p.body}</p>
                   </div>
                 </div>
               </motion.div>

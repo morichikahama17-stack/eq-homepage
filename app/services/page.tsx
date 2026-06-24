@@ -45,7 +45,7 @@ export default function ServicesPage() {
         <div style={{ maxWidth: "900px", margin: "0 auto", position: "relative", zIndex: 1 }}>
           <p style={{ fontFamily: "'Space Grotesk', sans-serif", fontSize: "10px", letterSpacing: "0.32em", textTransform: "uppercase", color: "#7A58A6", marginBottom: "20px" }}>Services</p>
           <h1 style={{ fontFamily: "'Space Grotesk', sans-serif", fontSize: "clamp(36px,6vw,72px)", fontWeight: 700, lineHeight: 1.1, letterSpacing: "-0.025em", marginBottom: "28px" }}>サービス</h1>
-          <p style={{ fontFamily: "'Noto Sans JP', sans-serif", fontSize: "16px", lineHeight: 2.1, letterSpacing: "0.04em", color: "rgba(255,255,255,0.45)", maxWidth: "560px" }}>
+          <p style={{ fontFamily: "'Shippori Mincho', sans-serif", fontSize: "16px", lineHeight: 2.1, letterSpacing: "0.04em", color: "rgba(255,255,255,0.45)", maxWidth: "560px" }}>
             あらゆる目標に対応する、本質に特化したサービスを提供します。
           </p>
         </div>
@@ -63,8 +63,8 @@ export default function ServicesPage() {
                   <p style={{ fontFamily: "'Space Grotesk', sans-serif", fontSize: "9px", letterSpacing: "0.22em", textTransform: "uppercase", color: "rgba(255,255,255,0.22)" }}>{s.en}</p>
                   <span style={{ fontFamily: "'Space Grotesk', sans-serif", fontSize: "9px", letterSpacing: "0.1em", color: "#7A58A6", border: "0.5px solid rgba(122,88,166,0.35)", borderRadius: "100px", padding: "3px 10px" }}>{s.tag}</span>
                 </div>
-                <h2 style={{ fontFamily: "'Noto Sans JP', sans-serif", fontSize: "clamp(20px,2.5vw,28px)", fontWeight: 700, letterSpacing: "0.04em", marginBottom: "20px" }}>{s.title}</h2>
-                <p style={{ fontFamily: "'Noto Sans JP', sans-serif", fontSize: "14px", lineHeight: 2.1, letterSpacing: "0.04em", color: "rgba(255,255,255,0.42)" }}>{s.body}</p>
+                <h2 style={{ fontFamily: "'Shippori Mincho', sans-serif", fontSize: "clamp(20px,2.5vw,28px)", fontWeight: 700, letterSpacing: "0.04em", marginBottom: "20px" }}>{s.title}</h2>
+                <p style={{ fontFamily: "'Shippori Mincho', sans-serif", fontSize: "14px", lineHeight: 2.1, letterSpacing: "0.04em", color: "rgba(255,255,255,0.42)" }}>{s.body}</p>
                 <a href="https://lin.ee/CjN1xSW" target="_blank" rel="noopener noreferrer"
                   style={{ display: "inline-block", marginTop: "28px", fontFamily: "'Space Grotesk', sans-serif", fontSize: "11px", letterSpacing: "0.14em", textTransform: "uppercase", color: "#fff", textDecoration: "none", padding: "12px 28px", borderRadius: "100px", background: "linear-gradient(135deg,#7A58A6,#5A3E88)", border: "0.5px solid rgba(122,88,166,0.7)" }}
                 >
@@ -75,7 +75,7 @@ export default function ServicesPage() {
                 <p style={{ fontFamily: "'Space Grotesk', sans-serif", fontSize: "9px", letterSpacing: "0.22em", textTransform: "uppercase", color: "rgba(255,255,255,0.22)", marginBottom: "20px" }}>Features</p>
                 <ul style={{ listStyle: "none", padding: 0, margin: 0, display: "flex", flexDirection: "column", gap: "14px" }}>
                   {s.features.map((f) => (
-                    <li key={f} style={{ display: "flex", alignItems: "center", gap: "12px", fontFamily: "'Noto Sans JP', sans-serif", fontSize: "14px", letterSpacing: "0.04em", color: "rgba(255,255,255,0.5)" }}>
+                    <li key={f} style={{ display: "flex", alignItems: "center", gap: "12px", fontFamily: "'Shippori Mincho', sans-serif", fontSize: "14px", letterSpacing: "0.04em", color: "rgba(255,255,255,0.5)" }}>
                       <span style={{ width: "4px", height: "4px", borderRadius: "50%", background: "#7A58A6", flexShrink: 0 }} />{f}
                     </li>
                   ))}

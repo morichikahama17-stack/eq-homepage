@@ -34,11 +34,11 @@ export default function CompanyPage() {
             {info.map((item, i) => (
               <div key={item.label} style={{ display: "grid", gridTemplateColumns: "180px 1fr", borderBottom: i === info.length - 1 ? "none" : "0.5px solid rgba(255,255,255,0.05)" }}>
                 <div style={{ padding: "24px 28px", borderRight: "0.5px solid rgba(255,255,255,0.05)", background: "rgba(0,0,0,0.3)" }}>
-                  <p style={{ fontFamily: "'Noto Sans JP', sans-serif", fontSize: "13px", letterSpacing: "0.06em", color: "rgba(255,255,255,0.38)" }}>{item.label}</p>
+                  <p style={{ fontFamily: "'Shippori Mincho', sans-serif", fontSize: "13px", letterSpacing: "0.06em", color: "rgba(255,255,255,0.38)" }}>{item.label}</p>
                 </div>
                 <div style={{ padding: "24px 28px" }}>
                   {item.value.split("\n").map((line, j) => (
-                    <p key={j} style={{ fontFamily: "'Noto Sans JP', sans-serif", fontSize: "14px", letterSpacing: "0.04em", color: "rgba(255,255,255,0.65)", lineHeight: 1.9 }}>{line}</p>
+                    <p key={j} style={{ fontFamily: "'Shippori Mincho', sans-serif", fontSize: "14px", letterSpacing: "0.04em", color: "rgba(255,255,255,0.65)", lineHeight: 1.9 }}>{line}</p>
                   ))}
                 </div>
               </div>
@@ -46,7 +46,7 @@ export default function CompanyPage() {
           </div>
 
           <div style={{ marginTop: "48px", background: "rgba(122,88,166,0.06)", border: "0.5px solid rgba(122,88,166,0.2)", borderRadius: "12px", padding: "28px 32px" }}>
-            <p style={{ fontFamily: "'Noto Sans JP', sans-serif", fontSize: "14px", lineHeight: 2.0, letterSpacing: "0.04em", color: "rgba(255,255,255,0.45)" }}>
+            <p style={{ fontFamily: "'Shippori Mincho', sans-serif", fontSize: "14px", lineHeight: 2.0, letterSpacing: "0.04em", color: "rgba(255,255,255,0.45)" }}>
               ご不明な点がございましたら、LINE公式アカウントよりお気軽にお問い合わせください。
             </p>
             <a href="https://lin.ee/CjN1xSW" target="_blank" rel="noopener noreferrer"

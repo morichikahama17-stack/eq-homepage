@@ -72,7 +72,7 @@ export default function Hero() {
           }}
         >
           才能ではなく、<br />
-          <span style={{ color: "#7A58A6" }}>再現性を設計する。</span>
+          <span style={{ color: "#7A58A6", whiteSpace: "nowrap" }}>再現性を設計する。</span>
         </motion.h1>
 
         {/* Sub */}
@@ -81,7 +81,7 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.85, duration: 0.75, ease: [0.22, 1, 0.36, 1] }}
           style={{
-            fontFamily: "'Noto Sans JP', sans-serif",
+            fontFamily: "'Shippori Mincho', sans-serif",
             fontSize: "clamp(14px, 1.6vw, 17px)",
             lineHeight: 2.0,
             letterSpacing: "0.06em",
@@ -123,7 +123,7 @@ export default function Hero() {
           style={{ display: "flex", gap: "10px", flexWrap: "wrap", justifyContent: "center", marginTop: "28px" }}
         >
           {["甲子園優勝投手", "大学日本一投手", "NPB選手", "日本代表選手"].map((label) => (
-            <span key={label} style={{ fontFamily: "'Noto Sans JP', sans-serif", fontSize: "10px", letterSpacing: "0.06em", color: "rgba(255,255,255,0.38)", border: "0.5px solid rgba(255,255,255,0.12)", borderRadius: "100px", padding: "5px 14px", whiteSpace: "nowrap", background: "rgba(255,255,255,0.03)" }}>
+            <span key={label} style={{ fontFamily: "'Shippori Mincho', sans-serif", fontSize: "10px", letterSpacing: "0.06em", color: "rgba(255,255,255,0.38)", border: "0.5px solid rgba(255,255,255,0.12)", borderRadius: "100px", padding: "5px 14px", whiteSpace: "nowrap", background: "rgba(255,255,255,0.03)" }}>
               {label}
             </span>
           ))}

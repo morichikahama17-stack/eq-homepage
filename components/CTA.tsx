@@ -63,7 +63,7 @@ export default function CTA() {
         <p
           className={`text-white/40 mb-14 transition-all duration-700 ease-out ${visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}
           style={{
-            fontFamily: "'Noto Sans JP', sans-serif",
+            fontFamily: "'Shippori Mincho', sans-serif",
             fontSize: "15px",
             lineHeight: 2.0,
             letterSpacing: "0.06em",

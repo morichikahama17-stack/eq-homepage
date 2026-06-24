@@ -40,7 +40,7 @@ export default function CTA() {
 
         <motion.p
           initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: 0.28, duration: 0.7, ease: EASE }}
-          style={{ fontFamily: "'Noto Sans JP', sans-serif", fontSize: "15px", lineHeight: 2.0, letterSpacing: "0.04em", color: "rgba(255,255,255,0.42)", marginBottom: "52px" }}
+          style={{ fontFamily: "'Shippori Mincho', sans-serif", fontSize: "15px", lineHeight: 2.0, letterSpacing: "0.04em", color: "rgba(255,255,255,0.42)", marginBottom: "52px" }}
         >
           まずは無料相談から。<br />
           あなたの現状と目標をお聞きし、<br />

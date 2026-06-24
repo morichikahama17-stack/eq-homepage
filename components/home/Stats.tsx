@@ -44,7 +44,7 @@ export default function Stats() {
           {["甲子園優勝投手", "大学日本一投手", "NPB選手", "日本代表選手"].map((label) => (
             <div key={label} style={{ display: "inline-flex", alignItems: "center", gap: "8px", padding: "10px 20px", borderRadius: "100px", border: "0.5px solid rgba(122,88,166,0.4)", background: "rgba(122,88,166,0.08)" }}>
               <span style={{ width: "5px", height: "5px", borderRadius: "50%", background: "#7A58A6", flexShrink: 0 }} />
-              <span style={{ fontFamily: "'Noto Sans JP', sans-serif", fontSize: "12px", letterSpacing: "0.06em", color: "rgba(255,255,255,0.65)" }}>{label}</span>
+              <span style={{ fontFamily: "'Shippori Mincho', sans-serif", fontSize: "12px", letterSpacing: "0.06em", color: "rgba(255,255,255,0.65)" }}>{label}</span>
             </div>
           ))}
         </motion.div>
@@ -65,7 +65,7 @@ export default function Stats() {
                 <span style={{ fontFamily: "'Space Grotesk', sans-serif", fontSize: "clamp(28px,4vw,44px)", fontWeight: 700, lineHeight: 1, letterSpacing: "-0.02em" }}>{s.value}</span>
                 <span style={{ fontFamily: "'Space Grotesk', sans-serif", fontSize: "clamp(16px,2vw,22px)", fontWeight: 500, lineHeight: 1.4, color: "#7A58A6" }}>{s.unit}</span>
               </div>
-              <p style={{ fontFamily: "'Noto Sans JP', sans-serif", fontSize: "12px", lineHeight: 1.7, letterSpacing: "0.04em", color: "rgba(255,255,255,0.4)" }}>{s.label}</p>
+              <p style={{ fontFamily: "'Shippori Mincho', sans-serif", fontSize: "12px", lineHeight: 1.7, letterSpacing: "0.04em", color: "rgba(255,255,255,0.4)" }}>{s.label}</p>
             </motion.div>
           ))}
         </div>
@@ -80,7 +80,7 @@ export default function Stats() {
             {["スポーツ報知 掲載", "デイリースポーツ 掲載"].map((m) => (
               <div key={m} style={{ display: "inline-flex", alignItems: "center", gap: "8px", padding: "10px 20px", borderRadius: "100px", border: "0.5px solid rgba(122,88,166,0.25)", background: "rgba(122,88,166,0.06)" }}>
                 <span style={{ width: "5px", height: "5px", borderRadius: "50%", background: "#7A58A6", flexShrink: 0 }} />
-                <span style={{ fontFamily: "'Noto Sans JP', sans-serif", fontSize: "12px", letterSpacing: "0.06em", color: "rgba(255,255,255,0.5)" }}>{m}</span>
+                <span style={{ fontFamily: "'Shippori Mincho', sans-serif", fontSize: "12px", letterSpacing: "0.06em", color: "rgba(255,255,255,0.5)" }}>{m}</span>
               </div>
             ))}
           </div>
@@ -104,7 +104,7 @@ export default function Stats() {
                   {m.year}
                 </span>
                 <div style={{ flexShrink: 0, width: "6px", height: "6px", borderRadius: "50%", border: "0.5px solid rgba(122,88,166,0.5)", background: "#000" }} />
-                <p style={{ fontFamily: "'Noto Sans JP', sans-serif", fontSize: "14px", letterSpacing: "0.04em", color: "rgba(255,255,255,0.5)", transition: "color 0.2s" }} className="eq-timeline-text">
+                <p style={{ fontFamily: "'Shippori Mincho', sans-serif", fontSize: "14px", letterSpacing: "0.04em", color: "rgba(255,255,255,0.5)", transition: "color 0.2s" }} className="eq-timeline-text">
                   {m.text}
                 </p>
               </motion.div>

@@ -39,7 +39,7 @@ export default function BlogPage() {
                     <span style={{ fontFamily: "'Space Grotesk', sans-serif", fontSize: "10px", letterSpacing: "0.08em", color: "rgba(255,255,255,0.22)" }}>{p.date}</span>
                     <span style={{ fontFamily: "'Space Grotesk', sans-serif", fontSize: "10px", letterSpacing: "0.08em", color: "rgba(255,255,255,0.22)" }}>読了 {p.readTime}</span>
                   </div>
-                  <h2 style={{ fontFamily: "'Noto Sans JP', sans-serif", fontSize: "17px", fontWeight: 500, letterSpacing: "0.04em", color: "rgba(255,255,255,0.72)", lineHeight: 1.6 }}>{p.title}</h2>
+                  <h2 style={{ fontFamily: "'Shippori Mincho', sans-serif", fontSize: "17px", fontWeight: 500, letterSpacing: "0.04em", color: "rgba(255,255,255,0.72)", lineHeight: 1.6 }}>{p.title}</h2>
                 </div>
                 <span style={{ flexShrink: 0, color: "rgba(255,255,255,0.22)", fontSize: "18px", paddingTop: "4px" }}>→</span>
               </div>

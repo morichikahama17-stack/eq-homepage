@@ -110,7 +110,7 @@ export default function Results() {
 
               <p
                 className="text-white/40"
-                style={{ fontFamily: "'Noto Sans JP', sans-serif", fontSize: "12px", lineHeight: 1.7, letterSpacing: "0.04em" }}
+                style={{ fontFamily: "'Shippori Mincho', sans-serif", fontSize: "12px", lineHeight: 1.7, letterSpacing: "0.04em" }}
               >
                 {s.label}
               </p>
@@ -147,7 +147,7 @@ export default function Results() {
                   />
                   <p
                     className="text-white/50 group-hover:text-white/80 transition-colors"
-                    style={{ fontFamily: "'Noto Sans JP', sans-serif", fontSize: "14px", letterSpacing: "0.04em" }}
+                    style={{ fontFamily: "'Shippori Mincho', sans-serif", fontSize: "14px", letterSpacing: "0.04em" }}
                   >
                     {m.text}
                   </p>

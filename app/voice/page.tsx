@@ -33,13 +33,13 @@ export default function VoicePage() {
             <div key={v.name} style={{ background: "rgba(255,255,255,0.02)", border: "0.5px solid rgba(255,255,255,0.07)", borderRadius: "12px", padding: "32px 28px", position: "relative", overflow: "hidden", display: "flex", flexDirection: "column", gap: "20px" }}>
               <div style={{ position: "absolute", top: 0, left: 0, right: 0, height: "0.5px", background: "linear-gradient(90deg,transparent,rgba(122,88,166,0.35),transparent)" }} />
               <div style={{ fontFamily: "'Space Grotesk', sans-serif", fontSize: "36px", lineHeight: 1, color: "rgba(122,88,166,0.22)" }}>"</div>
-              <p style={{ fontFamily: "'Noto Sans JP', sans-serif", fontSize: "14px", lineHeight: 2.1, letterSpacing: "0.04em", color: "rgba(255,255,255,0.55)", flex: 1 }}>{v.text}</p>
+              <p style={{ fontFamily: "'Shippori Mincho', sans-serif", fontSize: "14px", lineHeight: 2.1, letterSpacing: "0.04em", color: "rgba(255,255,255,0.55)", flex: 1 }}>{v.text}</p>
               <div style={{ borderTop: "0.5px solid rgba(255,255,255,0.06)", paddingTop: "16px" }}>
                 <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "6px" }}>
-                  <p style={{ fontFamily: "'Noto Sans JP', sans-serif", fontSize: "13px", fontWeight: 500, color: "rgba(255,255,255,0.65)" }}>{v.name}</p>
+                  <p style={{ fontFamily: "'Shippori Mincho', sans-serif", fontSize: "13px", fontWeight: 500, color: "rgba(255,255,255,0.65)" }}>{v.name}</p>
                   <span style={{ fontFamily: "'Space Grotesk', sans-serif", fontSize: "9px", letterSpacing: "0.08em", color: "#7A58A6", border: "0.5px solid rgba(122,88,166,0.3)", borderRadius: "100px", padding: "2px 8px" }}>{v.result}</span>
                 </div>
-                <p style={{ fontFamily: "'Noto Sans JP', sans-serif", fontSize: "11px", color: "rgba(255,255,255,0.28)" }}>{v.attr}</p>
+                <p style={{ fontFamily: "'Shippori Mincho', sans-serif", fontSize: "11px", color: "rgba(255,255,255,0.28)" }}>{v.attr}</p>
               </div>
             </div>
           ))}

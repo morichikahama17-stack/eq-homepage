@@ -122,13 +122,13 @@ export default function Services() {
               </p>
               <h3
                 className="text-xl font-display font-600 mb-5 text-white"
-                style={{ fontFamily: "'Noto Sans JP', sans-serif", fontWeight: 700, letterSpacing: "0.02em" }}
+                style={{ fontFamily: "'Shippori Mincho', sans-serif", fontWeight: 700, letterSpacing: "0.02em" }}
               >
                 {s.ja}
               </h3>
               <p
                 className="text-white/45 leading-relaxed mb-8"
-                style={{ fontFamily: "'Noto Sans JP', sans-serif", fontSize: "14px", lineHeight: 1.9, letterSpacing: "0.03em" }}
+                style={{ fontFamily: "'Shippori Mincho', sans-serif", fontSize: "14px", lineHeight: 1.9, letterSpacing: "0.03em" }}
               >
                 {s.desc}
               </p>

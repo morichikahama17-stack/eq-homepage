@@ -90,7 +90,7 @@ export default function Hero() {
         <p
           className={`max-w-lg mx-auto text-white/45 mb-14 ${fadeClass(3)}`}
           style={{
-            fontFamily: "'Noto Sans JP', sans-serif",
+            fontFamily: "'Shippori Mincho', sans-serif",
             fontSize: "clamp(13px, 1.6vw, 16px)",
             lineHeight: 2.0,
             letterSpacing: "0.06em",

@@ -63,7 +63,7 @@ export default function BrandMessage() {
               <p style={{ fontFamily: "'Space Grotesk', sans-serif", fontSize: "13px", fontWeight: 600, letterSpacing: "0.06em", color: "rgba(255,255,255,0.75)", marginBottom: "12px" }}>
                 {item.title}
               </p>
-              <p style={{ fontFamily: "'Noto Sans JP', sans-serif", fontSize: "14px", lineHeight: 2.0, letterSpacing: "0.04em", color: "rgba(255,255,255,0.38)" }}>
+              <p style={{ fontFamily: "'Shippori Mincho', sans-serif", fontSize: "14px", lineHeight: 2.0, letterSpacing: "0.04em", color: "rgba(255,255,255,0.38)" }}>
                 {item.body}
               </p>
             </motion.div>

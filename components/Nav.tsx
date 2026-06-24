@@ -95,7 +95,7 @@ export default function Nav() {
               {allLinks.map((l, i) => (
                 <motion.div key={l.href} initial={{ opacity: 0, x: -12 }} animate={{ opacity: 1, x: 0 }} transition={{ delay: i * 0.035, duration: 0.4, ease: [0.22, 1, 0.36, 1] }}>
                   <Link href={l.href} onClick={() => setOpen(false)}
-                    style={{ display: "block", fontFamily: "'Noto Sans JP', sans-serif", fontSize: "15px", fontWeight: 300, letterSpacing: "0.08em", color: "rgba(255,255,255,0.55)", textDecoration: "none", padding: "14px 0", borderBottom: "0.5px solid rgba(255,255,255,0.05)", transition: "color 0.2s" }}
+                    style={{ display: "block", fontFamily: "'Shippori Mincho', sans-serif", fontSize: "15px", fontWeight: 300, letterSpacing: "0.08em", color: "rgba(255,255,255,0.55)", textDecoration: "none", padding: "14px 0", borderBottom: "0.5px solid rgba(255,255,255,0.05)", transition: "color 0.2s" }}
                     className="eq-menu-link"
                   >
                     {l.label}

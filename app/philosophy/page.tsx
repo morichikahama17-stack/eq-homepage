@@ -35,7 +35,7 @@ export default function PhilosophyPage() {
           <h1 style={{ fontFamily: "'Space Grotesk', sans-serif", fontSize: "clamp(36px,6vw,72px)", fontWeight: 700, lineHeight: 1.1, letterSpacing: "-0.025em", marginBottom: "28px" }}>
             才能ではなく、<br /><span style={{ color: "#7A58A6" }}>再現性を設計する。</span>
           </h1>
-          <p style={{ fontFamily: "'Noto Sans JP', sans-serif", fontSize: "16px", lineHeight: 2.1, letterSpacing: "0.04em", color: "rgba(255,255,255,0.45)", maxWidth: "560px" }}>
+          <p style={{ fontFamily: "'Shippori Mincho', sans-serif", fontSize: "16px", lineHeight: 2.1, letterSpacing: "0.04em", color: "rgba(255,255,255,0.45)", maxWidth: "560px" }}>
             Essential Qualitiesが信じるのは、「才能」という言葉の先にある、設計可能な変化です。感覚論を排し、本質を追求する——それが私たちの存在理由です。
           </p>
         </div>
@@ -52,8 +52,8 @@ export default function PhilosophyPage() {
               <div key={p.title} style={{ background: "rgba(255,255,255,0.02)", border: "0.5px solid rgba(255,255,255,0.07)", borderRadius: i === 0 ? "16px 4px 4px 4px" : i === 1 ? "4px 16px 4px 4px" : i === 2 ? "4px 4px 4px 16px" : "4px 4px 16px 4px", padding: "40px 32px", position: "relative" }}>
                 <div style={{ position: "absolute", top: 0, left: 0, right: 0, height: "0.5px", background: "linear-gradient(90deg,transparent,rgba(122,88,166,0.35),transparent)" }} />
                 <p style={{ fontFamily: "'Space Grotesk', sans-serif", fontSize: "10px", letterSpacing: "0.2em", color: "rgba(122,88,166,0.6)", marginBottom: "12px" }}>{String(i + 1).padStart(2, "0")}</p>
-                <h3 style={{ fontFamily: "'Noto Sans JP', sans-serif", fontSize: "20px", fontWeight: 700, letterSpacing: "0.04em", marginBottom: "16px" }}>{p.title}</h3>
-                <p style={{ fontFamily: "'Noto Sans JP', sans-serif", fontSize: "14px", lineHeight: 2.1, letterSpacing: "0.04em", color: "rgba(255,255,255,0.42)" }}>{p.body}</p>
+                <h3 style={{ fontFamily: "'Shippori Mincho', sans-serif", fontSize: "20px", fontWeight: 700, letterSpacing: "0.04em", marginBottom: "16px" }}>{p.title}</h3>
+                <p style={{ fontFamily: "'Shippori Mincho', sans-serif", fontSize: "14px", lineHeight: 2.1, letterSpacing: "0.04em", color: "rgba(255,255,255,0.42)" }}>{p.body}</p>
               </div>
             ))}
           </div>

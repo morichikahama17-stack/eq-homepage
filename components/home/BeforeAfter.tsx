@@ -65,7 +65,7 @@ export default function BeforeAfter() {
               <div style={{ position: "absolute", top: 0, left: 0, right: 0, height: "0.5px", background: "linear-gradient(90deg, transparent, rgba(122,88,166,0.4), transparent)" }} />
 
               <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: "20px" }}>
-                <p style={{ fontFamily: "'Noto Sans JP', sans-serif", fontSize: "12px", color: "rgba(255,255,255,0.4)", letterSpacing: "0.06em" }}>{c.profile}</p>
+                <p style={{ fontFamily: "'Shippori Mincho', sans-serif", fontSize: "12px", color: "rgba(255,255,255,0.4)", letterSpacing: "0.06em" }}>{c.profile}</p>
                 <span style={{ fontFamily: "'Space Grotesk', sans-serif", fontSize: "10px", color: "rgba(255,255,255,0.22)", letterSpacing: "0.06em" }}>{c.period}</span>
               </div>
 
@@ -78,12 +78,12 @@ export default function BeforeAfter() {
                 <div style={{ padding: "16px 14px", borderRadius: "8px", background: "rgba(255,255,255,0.02)", border: "0.5px solid rgba(255,255,255,0.06)" }}>
                   <p style={{ fontFamily: "'Space Grotesk', sans-serif", fontSize: "9px", letterSpacing: "0.2em", textTransform: "uppercase", color: "rgba(255,255,255,0.2)", marginBottom: "8px" }}>Before</p>
                   <p style={{ fontFamily: "'Space Grotesk', sans-serif", fontSize: "20px", fontWeight: 600, color: "rgba(255,255,255,0.4)", marginBottom: "6px" }}>{c.before.value}</p>
-                  <p style={{ fontFamily: "'Noto Sans JP', sans-serif", fontSize: "11px", lineHeight: 1.7, letterSpacing: "0.04em", color: "rgba(255,255,255,0.26)" }}>{c.before.sub}</p>
+                  <p style={{ fontFamily: "'Shippori Mincho', sans-serif", fontSize: "11px", lineHeight: 1.7, letterSpacing: "0.04em", color: "rgba(255,255,255,0.26)" }}>{c.before.sub}</p>
                 </div>
                 <div style={{ padding: "16px 14px", borderRadius: "8px", background: "rgba(122,88,166,0.07)", border: "0.5px solid rgba(122,88,166,0.2)" }}>
                   <p style={{ fontFamily: "'Space Grotesk', sans-serif", fontSize: "9px", letterSpacing: "0.2em", textTransform: "uppercase", color: "#7A58A6", marginBottom: "8px" }}>After</p>
                   <p style={{ fontFamily: "'Space Grotesk', sans-serif", fontSize: "20px", fontWeight: 600, color: "#9B7CC8", marginBottom: "6px" }}>{c.after.value}</p>
-                  <p style={{ fontFamily: "'Noto Sans JP', sans-serif", fontSize: "11px", lineHeight: 1.7, letterSpacing: "0.04em", color: "rgba(255,255,255,0.42)" }}>{c.after.sub}</p>
+                  <p style={{ fontFamily: "'Shippori Mincho', sans-serif", fontSize: "11px", lineHeight: 1.7, letterSpacing: "0.04em", color: "rgba(255,255,255,0.42)" }}>{c.after.sub}</p>
                 </div>
               </div>
             </motion.div>

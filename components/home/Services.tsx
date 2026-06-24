@@ -80,12 +80,12 @@ export default function Services() {
                 <span style={{ fontFamily: "'Space Grotesk', sans-serif", fontSize: "9px", letterSpacing: "0.1em", color: "#7A58A6", border: "0.5px solid rgba(122,88,166,0.35)", borderRadius: "100px", padding: "3px 10px" }}>{s.tag}</span>
               </div>
 
-              <h3 style={{ fontFamily: "'Noto Sans JP', sans-serif", fontSize: "18px", fontWeight: 700, letterSpacing: "0.04em", color: "rgba(255,255,255,0.85)", marginBottom: "14px" }}>{s.title}</h3>
-              <p style={{ fontFamily: "'Noto Sans JP', sans-serif", fontSize: "13px", lineHeight: 2.0, letterSpacing: "0.04em", color: "rgba(255,255,255,0.38)", flex: 1, marginBottom: "28px" }}>{s.body}</p>
+              <h3 style={{ fontFamily: "'Shippori Mincho', sans-serif", fontSize: "18px", fontWeight: 700, letterSpacing: "0.04em", color: "rgba(255,255,255,0.85)", marginBottom: "14px" }}>{s.title}</h3>
+              <p style={{ fontFamily: "'Shippori Mincho', sans-serif", fontSize: "13px", lineHeight: 2.0, letterSpacing: "0.04em", color: "rgba(255,255,255,0.38)", flex: 1, marginBottom: "28px" }}>{s.body}</p>
 
               <ul style={{ listStyle: "none", padding: 0, margin: 0, display: "flex", flexDirection: "column", gap: "8px" }}>
                 {s.detail.map((d) => (
-                  <li key={d} style={{ display: "flex", alignItems: "center", gap: "10px", fontFamily: "'Noto Sans JP', sans-serif", fontSize: "12px", letterSpacing: "0.04em", color: "rgba(255,255,255,0.35)" }}>
+                  <li key={d} style={{ display: "flex", alignItems: "center", gap: "10px", fontFamily: "'Shippori Mincho', sans-serif", fontSize: "12px", letterSpacing: "0.04em", color: "rgba(255,255,255,0.35)" }}>
                     <span style={{ width: "4px", height: "4px", borderRadius: "50%", background: "#7A58A6", flexShrink: 0 }} />
                     {d}
                   </li>

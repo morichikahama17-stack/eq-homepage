@@ -41,7 +41,7 @@ export default function ResultsPage() {
                 <div style={{ position: "absolute", top: 0, left: 0, right: 0, height: "0.5px", background: "linear-gradient(90deg,transparent,rgba(122,88,166,0.4),transparent)" }} />
                 <p style={{ fontFamily: "'Space Grotesk', sans-serif", fontSize: "9px", letterSpacing: "0.22em", textTransform: "uppercase", color: "rgba(255,255,255,0.22)", marginBottom: "16px" }}>{s.en}</p>
                 <p style={{ fontFamily: "'Space Grotesk', sans-serif", fontSize: "clamp(28px,4vw,44px)", fontWeight: 700, lineHeight: 1, letterSpacing: "-0.02em", color: "#7A58A6", marginBottom: "8px" }}>{s.value}</p>
-                <p style={{ fontFamily: "'Noto Sans JP', sans-serif", fontSize: "13px", lineHeight: 1.7, letterSpacing: "0.04em", color: "rgba(255,255,255,0.42)" }}>{s.label}</p>
+                <p style={{ fontFamily: "'Shippori Mincho', sans-serif", fontSize: "13px", lineHeight: 1.7, letterSpacing: "0.04em", color: "rgba(255,255,255,0.42)" }}>{s.label}</p>
               </div>
             ))}
           </div>
@@ -53,7 +53,7 @@ export default function ResultsPage() {
               <div key={m.year} style={{ display: "flex", alignItems: "center", gap: "24px", padding: "20px 0", borderBottom: "0.5px solid rgba(255,255,255,0.04)" }}>
                 <span style={{ fontFamily: "'Space Grotesk', sans-serif", fontSize: "12px", color: "#7A58A6", letterSpacing: "0.04em", width: "80px", textAlign: "right", flexShrink: 0 }}>{m.year}</span>
                 <div style={{ width: "6px", height: "6px", borderRadius: "50%", border: "0.5px solid rgba(122,88,166,0.5)", background: "#000", flexShrink: 0 }} />
-                <p style={{ fontFamily: "'Noto Sans JP', sans-serif", fontSize: "15px", letterSpacing: "0.04em", color: "rgba(255,255,255,0.55)" }}>{m.text}</p>
+                <p style={{ fontFamily: "'Shippori Mincho', sans-serif", fontSize: "15px", letterSpacing: "0.04em", color: "rgba(255,255,255,0.55)" }}>{m.text}</p>
               </div>
             ))}
           </div>

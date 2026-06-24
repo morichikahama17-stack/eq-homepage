@@ -77,7 +77,7 @@ export default function Voices() {
               {/* Quote mark */}
               <div style={{ fontFamily: "'Space Grotesk', sans-serif", fontSize: "40px", lineHeight: 1, color: "rgba(122,88,166,0.25)", marginBottom: "-8px" }}>"</div>
 
-              <p style={{ fontFamily: "'Noto Sans JP', sans-serif", fontSize: "13px", lineHeight: 2.1, letterSpacing: "0.04em", color: "rgba(255,255,255,0.55)", flex: 1 }}>
+              <p style={{ fontFamily: "'Shippori Mincho', sans-serif", fontSize: "13px", lineHeight: 2.1, letterSpacing: "0.04em", color: "rgba(255,255,255,0.55)", flex: 1 }}>
                 {v.text}
               </p>
 
@@ -86,9 +86,9 @@ export default function Voices() {
                   <span style={{ fontFamily: "'Space Grotesk', sans-serif", fontSize: "11px", fontWeight: 700, letterSpacing: "0.04em", color: "#9B7CC8" }}>
                     {v.result}
                   </span>
-                  <span style={{ fontFamily: "'Noto Sans JP', sans-serif", fontSize: "10px", color: "rgba(255,255,255,0.25)", marginLeft: "8px" }}>/ {v.period}</span>
+                  <span style={{ fontFamily: "'Shippori Mincho', sans-serif", fontSize: "10px", color: "rgba(255,255,255,0.25)", marginLeft: "8px" }}>/ {v.period}</span>
                 </div>
-                <p style={{ fontFamily: "'Noto Sans JP', sans-serif", fontSize: "11px", letterSpacing: "0.04em", color: "rgba(255,255,255,0.28)" }}>{v.name} · {v.attr}</p>
+                <p style={{ fontFamily: "'Shippori Mincho', sans-serif", fontSize: "11px", letterSpacing: "0.04em", color: "rgba(255,255,255,0.28)" }}>{v.name} · {v.attr}</p>
               </div>
             </motion.div>
           ))}

@@ -33,9 +33,9 @@ export default function ProfilePage() {
               </div>
 
               <div style={{ marginTop: "16px", background: "rgba(255,255,255,0.02)", border: "0.5px solid rgba(255,255,255,0.07)", borderRadius: "12px", padding: "24px 20px" }}>
-                <p style={{ fontFamily: "'Noto Sans JP', sans-serif", fontSize: "20px", fontWeight: 700, letterSpacing: "0.04em", marginBottom: "4px" }}>濱 盛力</p>
+                <p style={{ fontFamily: "'Shippori Mincho', sans-serif", fontSize: "20px", fontWeight: 700, letterSpacing: "0.04em", marginBottom: "4px" }}>濱 盛力</p>
                 <p style={{ fontFamily: "'Space Grotesk', sans-serif", fontSize: "10px", letterSpacing: "0.12em", color: "rgba(255,255,255,0.3)", marginBottom: "16px" }}>Morichika Hama</p>
-                <p style={{ fontFamily: "'Noto Sans JP', sans-serif", fontSize: "12px", color: "rgba(255,255,255,0.35)", letterSpacing: "0.04em", marginBottom: "4px" }}>株式会社 Essential Qualities</p>
+                <p style={{ fontFamily: "'Shippori Mincho', sans-serif", fontSize: "12px", color: "rgba(255,255,255,0.35)", letterSpacing: "0.04em", marginBottom: "4px" }}>株式会社 Essential Qualities</p>
                 <p style={{ fontFamily: "'Space Grotesk', sans-serif", fontSize: "11px", color: "rgba(122,88,166,0.85)", letterSpacing: "0.08em", marginBottom: "20px" }}>Founder & CEO</p>
 
                 <div style={{ padding: "14px 16px", background: "rgba(122,88,166,0.08)", border: "0.5px solid rgba(122,88,166,0.22)", borderRadius: "8px", marginBottom: "20px" }}>
@@ -62,10 +62,10 @@ export default function ProfilePage() {
               <div style={{ position: "relative", padding: "28px 32px", marginBottom: "48px", background: "rgba(122,88,166,0.06)", border: "0.5px solid rgba(122,88,166,0.2)", borderRadius: "12px" }}>
                 <div style={{ position: "absolute", top: 0, left: 0, right: 0, height: "0.5px", background: "linear-gradient(90deg,transparent,rgba(122,88,166,0.5),transparent)" }} />
                 <p style={{ fontFamily: "'Space Grotesk', sans-serif", fontSize: "28px", color: "rgba(122,88,166,0.2)", lineHeight: 1, marginBottom: "12px" }}>"</p>
-                <p style={{ fontFamily: "'Noto Sans JP', sans-serif", fontSize: "16px", lineHeight: 1.9, letterSpacing: "0.04em", color: "rgba(255,255,255,0.7)", fontWeight: 500 }}>
+                <p style={{ fontFamily: "'Shippori Mincho', sans-serif", fontSize: "16px", lineHeight: 1.9, letterSpacing: "0.04em", color: "rgba(255,255,255,0.7)", fontWeight: 500 }}>
                   "最強"にたどり着くための地図を見せる。
                 </p>
-                <p style={{ fontFamily: "'Noto Sans JP', sans-serif", fontSize: "13px", lineHeight: 1.8, letterSpacing: "0.04em", color: "rgba(255,255,255,0.35)", marginTop: "10px" }}>
+                <p style={{ fontFamily: "'Shippori Mincho', sans-serif", fontSize: "13px", lineHeight: 1.8, letterSpacing: "0.04em", color: "rgba(255,255,255,0.35)", marginTop: "10px" }}>
                   技術、環境、メンタル、遊び心——その人が持つ最高値を引き出すため、何をかけ合わせるかを考え抜く。
                 </p>
               </div>
@@ -79,7 +79,7 @@ export default function ProfilePage() {
                   "指導の軸は「かけ算」。技術だけでなく、環境・メンタル・遊び心——選手が化けるために何をかけ合わせるかを徹底的に考える。マーケティング思考や心理学への関心も取り入れながら、その人の性格や身体に合った完全個別型の指導を行う。ジムにはラプソードを設置し、18.44mのブルペンと打撃スペースを完備。約1時間のセッションをほとんど会話だけで終えることもある。",
                   "2023年にオンラインサロンを開始し、2024年2月に株式会社Essential Qualitiesを設立。大阪にDAY ONEを開業し、宗山塁選手（東北楽天）・金丸夢斗選手（中日）・渡部聖弥選手（大商大出身）、広島・中村奨選手など多数の選手を指導。2024年ドラフトでは2名がドラフト1位指名を受けた。",
                 ].map((text, i) => (
-                  <p key={i} style={{ fontFamily: "'Noto Sans JP', sans-serif", fontSize: "15px", lineHeight: 2.1, letterSpacing: "0.04em", color: "rgba(255,255,255,0.5)" }}>{text}</p>
+                  <p key={i} style={{ fontFamily: "'Shippori Mincho', sans-serif", fontSize: "15px", lineHeight: 2.1, letterSpacing: "0.04em", color: "rgba(255,255,255,0.5)" }}>{text}</p>
                 ))}
               </div>
 
@@ -99,7 +99,7 @@ export default function ProfilePage() {
                 ].map((m, i) => (
                   <div key={i} style={{ display: "flex", gap: "20px", alignItems: "flex-start", padding: "14px 0", borderBottom: "0.5px solid rgba(255,255,255,0.05)" }}>
                     <span style={{ fontFamily: "'Space Grotesk', sans-serif", fontSize: "10px", color: "#7A58A6", letterSpacing: "0.04em", minWidth: "80px", flexShrink: 0, paddingTop: "2px" }}>{m.year}</span>
-                    <p style={{ fontFamily: "'Noto Sans JP', sans-serif", fontSize: "14px", lineHeight: 1.8, letterSpacing: "0.04em", color: "rgba(255,255,255,0.5)" }}>{m.text}</p>
+                    <p style={{ fontFamily: "'Shippori Mincho', sans-serif", fontSize: "14px", lineHeight: 1.8, letterSpacing: "0.04em", color: "rgba(255,255,255,0.5)" }}>{m.text}</p>
                   </div>
                 ))}
               </div>
@@ -145,11 +145,11 @@ export default function ProfilePage() {
                   </div>
                   <span style={{ fontFamily: "'Space Grotesk', sans-serif", fontSize: "10px", color: "rgba(255,255,255,0.2)", letterSpacing: "0.06em" }}>{item.date}</span>
                 </div>
-                <p style={{ fontFamily: "'Noto Sans JP', sans-serif", fontSize: "14px", lineHeight: 1.85, letterSpacing: "0.03em", color: "rgba(255,255,255,0.6)", flex: 1 }}>
+                <p style={{ fontFamily: "'Shippori Mincho', sans-serif", fontSize: "14px", lineHeight: 1.85, letterSpacing: "0.03em", color: "rgba(255,255,255,0.6)", flex: 1 }}>
                   {item.title}
                 </p>
                 <div style={{ display: "flex", alignItems: "center", gap: "6px" }}>
-                  <span style={{ fontFamily: "'Noto Sans JP', sans-serif", fontSize: "11px", color: "rgba(255,255,255,0.22)" }}>{item.pub}</span>
+                  <span style={{ fontFamily: "'Shippori Mincho', sans-serif", fontSize: "11px", color: "rgba(255,255,255,0.22)" }}>{item.pub}</span>
                   <svg width="10" height="10" viewBox="0 0 12 12" fill="none" stroke="rgba(255,255,255,0.2)" strokeWidth="1.5">
                     <path d="M2 10L10 2M10 2H5M10 2V7"/>
                   </svg>
@@ -178,7 +178,7 @@ export default function ProfilePage() {
                   <Image src="/ikebata2.png" alt="池端 航洋" fill style={{ objectFit: "cover", objectPosition: "center center" }} />
                 </div>
                 <div>
-                  <p style={{ fontFamily: "'Noto Sans JP', sans-serif", fontSize: "18px", fontWeight: 700, letterSpacing: "0.04em", marginBottom: "4px" }}>池端 航洋</p>
+                  <p style={{ fontFamily: "'Shippori Mincho', sans-serif", fontSize: "18px", fontWeight: 700, letterSpacing: "0.04em", marginBottom: "4px" }}>池端 航洋</p>
                   <p style={{ fontFamily: "'Space Grotesk', sans-serif", fontSize: "10px", letterSpacing: "0.1em", color: "rgba(122,88,166,0.85)", marginBottom: "8px" }}>Staff Coach</p>
                   <a href="https://www.instagram.com/koyo_ikebata_eq" target="_blank" rel="noopener noreferrer"
                     style={{ fontFamily: "'Space Grotesk', sans-serif", fontSize: "10px", color: "rgba(255,255,255,0.28)", textDecoration: "none", display: "flex", alignItems: "center", gap: "6px" }}>
@@ -197,7 +197,7 @@ export default function ProfilePage() {
                     "大阪府出身。土佐高校を経て関西学院大学準硬式野球部へ進学。大学では投手に転向し、初登板完全試合・タイトル獲得・全日本出場を経験。",
                     "「全力・感謝・笑顔」をモットーに、選手一人ひとりに寄り添ったコーチングを実践。",
                   ].map((text, i) => (
-                    <p key={i} style={{ fontFamily: "'Noto Sans JP', sans-serif", fontSize: "13px", lineHeight: 2.0, letterSpacing: "0.04em", color: "rgba(255,255,255,0.42)" }}>{text}</p>
+                    <p key={i} style={{ fontFamily: "'Shippori Mincho', sans-serif", fontSize: "13px", lineHeight: 2.0, letterSpacing: "0.04em", color: "rgba(255,255,255,0.42)" }}>{text}</p>
                   ))}
                 </div>
 
@@ -222,7 +222,7 @@ export default function ProfilePage() {
                       className="eq-staff-article"
                     >
                       <div style={{ width: "4px", height: "4px", borderRadius: "50%", background: "#7A58A6", flexShrink: 0 }} />
-                      <p style={{ fontFamily: "'Noto Sans JP', sans-serif", fontSize: "11px", lineHeight: 1.5, color: "rgba(255,255,255,0.45)", flex: 1 }}>{label}</p>
+                      <p style={{ fontFamily: "'Shippori Mincho', sans-serif", fontSize: "11px", lineHeight: 1.5, color: "rgba(255,255,255,0.45)", flex: 1 }}>{label}</p>
                       <svg width="10" height="10" viewBox="0 0 12 12" fill="none" stroke="rgba(255,255,255,0.25)" strokeWidth="1.5" style={{ flexShrink: 0 }}>
                         <path d="M2 10L10 2M10 2H5M10 2V7"/>
                       </svg>

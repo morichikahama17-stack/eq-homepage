@@ -8,7 +8,7 @@ export default function ContactPage() {
         <div style={{ maxWidth: "900px", margin: "0 auto", position: "relative", zIndex: 1 }}>
           <p style={{ fontFamily: "'Space Grotesk', sans-serif", fontSize: "10px", letterSpacing: "0.32em", textTransform: "uppercase", color: "#7A58A6", marginBottom: "20px" }}>Contact</p>
           <h1 style={{ fontFamily: "'Space Grotesk', sans-serif", fontSize: "clamp(36px,6vw,72px)", fontWeight: 700, lineHeight: 1.1, letterSpacing: "-0.025em", marginBottom: "24px" }}>お問い合わせ</h1>
-          <p style={{ fontFamily: "'Noto Sans JP', sans-serif", fontSize: "15px", lineHeight: 2.0, letterSpacing: "0.04em", color: "rgba(255,255,255,0.42)", maxWidth: "520px" }}>
+          <p style={{ fontFamily: "'Shippori Mincho', sans-serif", fontSize: "15px", lineHeight: 2.0, letterSpacing: "0.04em", color: "rgba(255,255,255,0.42)", maxWidth: "520px" }}>
             LINEから直接ご連絡ください。お友だち追加後にメッセージを送るだけで、無料相談を受け付けています。
           </p>
         </div>
@@ -28,7 +28,7 @@ export default function ContactPage() {
             <h2 style={{ fontFamily: "'Space Grotesk', sans-serif", fontSize: "clamp(22px,3.5vw,36px)", fontWeight: 700, letterSpacing: "-0.02em", lineHeight: 1.2, marginBottom: "16px" }}>
               まずは無料相談から
             </h2>
-            <p style={{ fontFamily: "'Noto Sans JP', sans-serif", fontSize: "14px", lineHeight: 2.0, letterSpacing: "0.04em", color: "rgba(255,255,255,0.42)", marginBottom: "36px" }}>
+            <p style={{ fontFamily: "'Shippori Mincho', sans-serif", fontSize: "14px", lineHeight: 2.0, letterSpacing: "0.04em", color: "rgba(255,255,255,0.42)", marginBottom: "36px" }}>
               現状の課題・目標をお聞きし、<br />あなたに最適なアプローチをご提案します。
             </p>
 
@@ -58,7 +58,7 @@ export default function ContactPage() {
               <div key={item.title} style={{ background: "rgba(255,255,255,0.02)", border: "0.5px solid rgba(255,255,255,0.07)", borderRadius: "12px", padding: "24px 20px" }}>
                 <p style={{ fontSize: "20px", marginBottom: "10px" }}>{item.icon}</p>
                 <p style={{ fontFamily: "'Space Grotesk', sans-serif", fontSize: "12px", fontWeight: 600, letterSpacing: "0.06em", color: "rgba(255,255,255,0.65)", marginBottom: "6px" }}>{item.title}</p>
-                <p style={{ fontFamily: "'Noto Sans JP', sans-serif", fontSize: "12px", lineHeight: 1.8, letterSpacing: "0.04em", color: "rgba(255,255,255,0.35)" }}>{item.body}</p>
+                <p style={{ fontFamily: "'Shippori Mincho', sans-serif", fontSize: "12px", lineHeight: 1.8, letterSpacing: "0.04em", color: "rgba(255,255,255,0.35)" }}>{item.body}</p>
               </div>
             ))}
           </div>

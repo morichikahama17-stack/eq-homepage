@@ -52,16 +52,16 @@ export default function About() {
             className={`space-y-6 ${fade(2)}`}
             style={{ transitionDelay: "200ms" }}
           >
-            <p className="text-white/55 leading-relaxed" style={{ fontFamily: "'Noto Sans JP', sans-serif", fontSize: "15px", lineHeight: 2.0, letterSpacing: "0.04em" }}>
+            <p className="text-white/55 leading-relaxed" style={{ fontFamily: "'Shippori Mincho', sans-serif", fontSize: "15px", lineHeight: 2.0, letterSpacing: "0.04em" }}>
               Essential Qualitiesは、アスリートと経営者のための
               パフォーマンス設計機関です。
             </p>
-            <p className="text-white/55 leading-relaxed" style={{ fontFamily: "'Noto Sans JP', sans-serif", fontSize: "15px", lineHeight: 2.0, letterSpacing: "0.04em" }}>
+            <p className="text-white/55 leading-relaxed" style={{ fontFamily: "'Shippori Mincho', sans-serif", fontSize: "15px", lineHeight: 2.0, letterSpacing: "0.04em" }}>
               身体能力の開発にとどまらず、思考・データ・行動を統合した
               独自のアプローチで、再現性のある高パフォーマンスを設計します。
               一流の結果は、偶然ではなく設計から生まれる。
             </p>
-            <p className="text-white/55 leading-relaxed" style={{ fontFamily: "'Noto Sans JP', sans-serif", fontSize: "15px", lineHeight: 2.0, letterSpacing: "0.04em" }}>
+            <p className="text-white/55 leading-relaxed" style={{ fontFamily: "'Shippori Mincho', sans-serif", fontSize: "15px", lineHeight: 2.0, letterSpacing: "0.04em" }}>
               私たちは「本質」だけを扱います。
               流行や表面的な手法ではなく、真に機能する原理から構築された
               プログラムが、あなたの進化を加速させます。
@@ -80,7 +80,7 @@ export default function About() {
               <span style={{ fontFamily: "'Space Grotesk', sans-serif", fontWeight: 700, fontSize: "16px", color: "#9B7CC8" }}>濱</span>
             </div>
             <div>
-              <p className="text-white font-500 mb-1" style={{ fontFamily: "'Noto Sans JP', sans-serif", fontSize: "15px", letterSpacing: "0.04em" }}>
+              <p className="text-white font-500 mb-1" style={{ fontFamily: "'Shippori Mincho', sans-serif", fontSize: "15px", letterSpacing: "0.04em" }}>
                 濱 盛力
               </p>
               <p className="text-white/35 text-xs mb-2" style={{ fontFamily: "'Space Grotesk', sans-serif", letterSpacing: "0.08em" }}>

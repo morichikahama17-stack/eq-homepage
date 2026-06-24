@@ -42,7 +42,7 @@ function FAQItem({ q, a, isLast }: { q: string; a: string; isLast: boolean }) {
       <button onClick={() => setOpen(!open)}
         style={{ width: "100%", display: "flex", alignItems: "center", justifyContent: "space-between", padding: "22px 0", background: "none", border: "none", cursor: "pointer", textAlign: "left" }}
       >
-        <span style={{ fontFamily: "'Noto Sans JP', sans-serif", fontSize: "15px", fontWeight: 400, letterSpacing: "0.04em", color: open ? "#fff" : "rgba(255,255,255,0.65)", transition: "color 0.2s", paddingRight: "20px" }}>{q}</span>
+        <span style={{ fontFamily: "'Shippori Mincho', sans-serif", fontSize: "15px", fontWeight: 400, letterSpacing: "0.04em", color: open ? "#fff" : "rgba(255,255,255,0.65)", transition: "color 0.2s", paddingRight: "20px" }}>{q}</span>
         <motion.span animate={{ rotate: open ? 45 : 0 }} transition={{ duration: 0.22 }}
           style={{ flexShrink: 0, width: "20px", height: "20px", borderRadius: "50%", border: "0.5px solid rgba(255,255,255,0.15)", display: "flex", alignItems: "center", justifyContent: "center", color: open ? "#7A58A6" : "rgba(255,255,255,0.35)", fontSize: "16px", lineHeight: 1 }}
         >+</motion.span>
@@ -50,7 +50,7 @@ function FAQItem({ q, a, isLast }: { q: string; a: string; isLast: boolean }) {
       <AnimatePresence initial={false}>
         {open && (
           <motion.div initial={{ height: 0, opacity: 0 }} animate={{ height: "auto", opacity: 1 }} exit={{ height: 0, opacity: 0 }} transition={{ duration: 0.32, ease: EASE }} style={{ overflow: "hidden" }}>
-            <p style={{ fontFamily: "'Noto Sans JP', sans-serif", fontSize: "14px", lineHeight: 2.0, letterSpacing: "0.04em", color: "rgba(255,255,255,0.45)", paddingBottom: "22px" }}>{a}</p>
+            <p style={{ fontFamily: "'Shippori Mincho', sans-serif", fontSize: "14px", lineHeight: 2.0, letterSpacing: "0.04em", color: "rgba(255,255,255,0.45)", paddingBottom: "22px" }}>{a}</p>
           </motion.div>
         )}
       </AnimatePresence>

@@ -50,7 +50,7 @@ export default function Method() {
           </motion.h2>
           <motion.p
             initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: 0.18, duration: 0.7, ease: EASE }}
-            style={{ fontFamily: "'Noto Sans JP', sans-serif", fontSize: "14px", lineHeight: 2.0, letterSpacing: "0.04em", color: "rgba(255,255,255,0.38)", maxWidth: "520px", margin: "0 auto 40px" }}
+            style={{ fontFamily: "'Shippori Mincho', sans-serif", fontSize: "14px", lineHeight: 2.0, letterSpacing: "0.04em", color: "rgba(255,255,255,0.38)", maxWidth: "520px", margin: "0 auto 40px" }}
           >
             4つの専門領域を統合した独自のアプローチで、<br />
             再現性のある進化を設計します。
@@ -59,10 +59,10 @@ export default function Method() {
             initial={{ opacity: 0, y: 16 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: 0.28, duration: 0.7, ease: EASE }}
             style={{ maxWidth: "600px", margin: "0 auto", padding: "24px 32px", borderRadius: "12px", border: "0.5px solid rgba(122,88,166,0.25)", background: "rgba(122,88,166,0.06)", textAlign: "center" }}
           >
-            <p style={{ fontFamily: "'Noto Sans JP', sans-serif", fontSize: "15px", lineHeight: 1.9, letterSpacing: "0.06em", color: "rgba(255,255,255,0.65)", fontStyle: "italic" }}>
+            <p style={{ fontFamily: "'Shippori Mincho', sans-serif", fontSize: "15px", lineHeight: 1.9, letterSpacing: "0.06em", color: "rgba(255,255,255,0.65)", fontStyle: "italic" }}>
               "最強にたどり着くための地図を見せる"
             </p>
-            <p style={{ fontFamily: "'Noto Sans JP', sans-serif", fontSize: "11px", letterSpacing: "0.08em", color: "rgba(255,255,255,0.22)", marginTop: "12px" }}>
+            <p style={{ fontFamily: "'Shippori Mincho', sans-serif", fontSize: "11px", letterSpacing: "0.08em", color: "rgba(255,255,255,0.22)", marginTop: "12px" }}>
               技術・環境・メンタル・遊び心——4要素のかけ算で、その人が持つ最高値を引き出す
             </p>
           </motion.div>
@@ -85,8 +85,8 @@ export default function Method() {
               <div style={{ position: "absolute", top: 0, left: 0, right: 0, height: "0.5px", background: "linear-gradient(90deg, transparent, rgba(122,88,166,0.4), transparent)" }} />
               <div style={{ fontSize: "24px", color: "#7A58A6", marginBottom: "20px", lineHeight: 1 }}>{m.icon}</div>
               <p style={{ fontFamily: "'Space Grotesk', sans-serif", fontSize: "10px", letterSpacing: "0.2em", textTransform: "uppercase", color: "rgba(255,255,255,0.25)", marginBottom: "10px" }}>{m.en}</p>
-              <p style={{ fontFamily: "'Noto Sans JP', sans-serif", fontSize: "16px", fontWeight: 700, letterSpacing: "0.04em", color: "rgba(255,255,255,0.85)", marginBottom: "16px" }}>{m.title}</p>
-              <p style={{ fontFamily: "'Noto Sans JP', sans-serif", fontSize: "13px", lineHeight: 2.0, letterSpacing: "0.04em", color: "rgba(255,255,255,0.38)" }}>{m.body}</p>
+              <p style={{ fontFamily: "'Shippori Mincho', sans-serif", fontSize: "16px", fontWeight: 700, letterSpacing: "0.04em", color: "rgba(255,255,255,0.85)", marginBottom: "16px" }}>{m.title}</p>
+              <p style={{ fontFamily: "'Shippori Mincho', sans-serif", fontSize: "13px", lineHeight: 2.0, letterSpacing: "0.04em", color: "rgba(255,255,255,0.38)" }}>{m.body}</p>
             </motion.div>
           ))}
         </div>

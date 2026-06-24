@@ -83,7 +83,7 @@ export default function Voice() {
 
               <p
                 className="text-white/60 mb-10"
-                style={{ fontFamily: "'Noto Sans JP', sans-serif", fontSize: "14px", lineHeight: 2.1, letterSpacing: "0.04em" }}
+                style={{ fontFamily: "'Shippori Mincho', sans-serif", fontSize: "14px", lineHeight: 2.1, letterSpacing: "0.04em" }}
               >
                 {v.quote}
               </p>
@@ -91,7 +91,7 @@ export default function Voice() {
               <div className="flex items-center justify-between pt-6" style={{ borderTop: "0.5px solid rgba(255,255,255,0.07)" }}>
                 <div>
                   <p className="text-white text-sm font-display font-500" style={{ fontFamily: "'Space Grotesk', sans-serif" }}>{v.name}</p>
-                  <p className="text-white/30 text-xs mt-1" style={{ fontFamily: "'Noto Sans JP', sans-serif", letterSpacing: "0.04em" }}>{v.role}</p>
+                  <p className="text-white/30 text-xs mt-1" style={{ fontFamily: "'Shippori Mincho', sans-serif", letterSpacing: "0.04em" }}>{v.role}</p>
                 </div>
                 <span
                   className="text-xs px-3 py-1 rounded-full"
