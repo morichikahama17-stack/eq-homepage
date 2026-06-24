@@ -71,7 +71,7 @@ export default function Hero() {
             margin: "0 0 28px",
           }}
         >
-          才能ではなく、<br />
+          才能ではなく<br />
           <span style={{ color: "#7A58A6", whiteSpace: "nowrap" }}>再現性を設計する</span>
         </motion.h1>
 
