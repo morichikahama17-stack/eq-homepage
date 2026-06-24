@@ -24,9 +24,9 @@ export default function BrandMessage() {
           transition={{ duration: 0.9, ease: EASE }}
           style={{
             margin: 0,
-            fontFamily: "'Space Grotesk', sans-serif",
+            fontFamily: "'Noto Serif JP', serif",
             fontSize: "clamp(28px, 4.5vw, 60px)",
-            fontWeight: 600,
+            fontWeight: 700,
             lineHeight: 1.25,
             letterSpacing: "-0.02em",
             color: "#fff",
