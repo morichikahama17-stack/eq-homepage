@@ -60,7 +60,7 @@ export default function Method() {
             style={{ maxWidth: "600px", margin: "0 auto", padding: "24px 32px", borderRadius: "12px", border: "0.5px solid rgba(122,88,166,0.25)", background: "rgba(122,88,166,0.06)", textAlign: "center" }}
           >
             <p style={{ fontFamily: "'Shippori Mincho', sans-serif", fontSize: "clamp(12px, 3vw, 15px)", lineHeight: 1.9, letterSpacing: "0.06em", color: "rgba(255,255,255,0.65)", fontStyle: "italic", whiteSpace: "nowrap" }}>
-              "最強にたどり着くための地図を見せる"
+              "最強に辿り着くための地図を見せる"
             </p>
             <p style={{ fontFamily: "'Shippori Mincho', sans-serif", fontSize: "11px", letterSpacing: "0.08em", color: "rgba(255,255,255,0.22)", marginTop: "12px" }}>
               技術・環境・メンタル・遊び心——4要素のかけ算で、その人が持つ最高値を引き出す

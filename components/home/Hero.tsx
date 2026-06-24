@@ -34,7 +34,7 @@ export default function Hero() {
 
       {/* Content */}
       <motion.div
-        style={{ y: textY, opacity, position: "relative", zIndex: 10, textAlign: "center", padding: "0 24px", maxWidth: "900px" }}
+        style={{ y: textY, opacity, position: "relative", zIndex: 10, textAlign: "center", padding: "0 24px 100px", maxWidth: "900px" }}
       >
         {/* Logo */}
         <motion.div
