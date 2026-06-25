@@ -36,27 +36,6 @@ export default function Hero() {
       <motion.div
         style={{ y: textY, opacity, position: "relative", zIndex: 10, textAlign: "center", padding: "0 24px 100px", maxWidth: "900px" }}
       >
-        {/* Logo */}
-        <motion.div
-          initial={{ opacity: 0, scale: 0.85 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ delay: 0.3, duration: 0.9, ease: [0.22, 1, 0.36, 1] }}
-          style={{ display: "flex", justifyContent: "center", marginBottom: "36px" }}
-        >
-          <EQLogo size={80} className="animate-hex-float" />
-        </motion.div>
-
-        {/* Eyebrow */}
-        <motion.p
-          initial={{ opacity: 0, y: 16 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.5, duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
-          className="eyebrow"
-          style={{ marginBottom: "28px" }}
-        >
-          Essential Qualities
-        </motion.p>
-
         {/* H1 */}
         <motion.h1
           initial={{ opacity: 0, y: 28 }}
