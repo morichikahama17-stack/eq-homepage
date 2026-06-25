@@ -71,18 +71,18 @@ export default function BeforeAfter() {
 
               {/* Delta badge */}
               <div style={{ textAlign: "center", marginBottom: "20px", padding: "14px 0", borderRadius: "8px", background: "rgba(122,88,166,0.12)", border: "0.5px solid rgba(122,88,166,0.25)" }}>
-                <span style={{ fontFamily: "'Space Grotesk', sans-serif", fontSize: "clamp(28px,4vw,40px)", fontWeight: 700, color: "#9B7CC8", letterSpacing: "-0.02em" }}>{c.delta}</span>
+                <span style={{ fontFamily: "'Bebas Neue', sans-serif", fontSize: "clamp(32px,4vw,46px)", color: "#9B7CC8", letterSpacing: "0.02em" }}>{c.delta}</span>
               </div>
 
               <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "10px" }}>
                 <div style={{ padding: "16px 14px", borderRadius: "8px", background: "rgba(255,255,255,0.02)", border: "0.5px solid rgba(255,255,255,0.06)" }}>
                   <p style={{ fontFamily: "'Space Grotesk', sans-serif", fontSize: "9px", letterSpacing: "0.2em", textTransform: "uppercase", color: "rgba(255,255,255,0.2)", marginBottom: "8px" }}>Before</p>
-                  <p style={{ fontFamily: "'Space Grotesk', sans-serif", fontSize: "20px", fontWeight: 600, color: "rgba(255,255,255,0.4)", marginBottom: "6px" }}>{c.before.value}</p>
+                  <p style={{ fontFamily: "'Bebas Neue', sans-serif", fontSize: "22px", color: "rgba(255,255,255,0.4)", marginBottom: "6px" }}>{c.before.value}</p>
                   <p style={{ fontFamily: "'Shippori Mincho', sans-serif", fontSize: "11px", lineHeight: 1.7, letterSpacing: "0.04em", color: "rgba(255,255,255,0.26)" }}>{c.before.sub}</p>
                 </div>
                 <div style={{ padding: "16px 14px", borderRadius: "8px", background: "rgba(122,88,166,0.07)", border: "0.5px solid rgba(122,88,166,0.2)" }}>
                   <p style={{ fontFamily: "'Space Grotesk', sans-serif", fontSize: "9px", letterSpacing: "0.2em", textTransform: "uppercase", color: "#7A58A6", marginBottom: "8px" }}>After</p>
-                  <p style={{ fontFamily: "'Space Grotesk', sans-serif", fontSize: "20px", fontWeight: 600, color: "#9B7CC8", marginBottom: "6px" }}>{c.after.value}</p>
+                  <p style={{ fontFamily: "'Bebas Neue', sans-serif", fontSize: "22px", color: "#9B7CC8", marginBottom: "6px" }}>{c.after.value}</p>
                   <p style={{ fontFamily: "'Shippori Mincho', sans-serif", fontSize: "11px", lineHeight: 1.7, letterSpacing: "0.04em", color: "rgba(255,255,255,0.42)" }}>{c.after.sub}</p>
                 </div>
               </div>

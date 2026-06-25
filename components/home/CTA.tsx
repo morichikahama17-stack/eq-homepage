@@ -17,13 +17,6 @@ export default function CTA() {
       </div>
 
       <div style={{ maxWidth: "760px", margin: "0 auto", position: "relative", zIndex: 1, textAlign: "center" }}>
-        <motion.div
-          initial={{ opacity: 0, scale: 0.88 }} whileInView={{ opacity: 1, scale: 1 }} viewport={{ once: true }} transition={{ duration: 0.75, ease: EASE }}
-          style={{ display: "flex", justifyContent: "center", marginBottom: "32px" }}
-        >
-          <EQLogo size={56} />
-        </motion.div>
-
         <motion.p className="eyebrow" style={{ marginBottom: "24px" }}
           initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: 0.1, duration: 0.7, ease: EASE }}
         >
