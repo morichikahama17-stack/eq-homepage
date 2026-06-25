@@ -68,7 +68,7 @@ export default function Problem() {
                 <div style={{ display: "flex", alignItems: "flex-start", gap: "24px" }}>
                   <span style={{ fontFamily: "'Space Grotesk', sans-serif", fontSize: "11px", letterSpacing: "0.08em", color: "rgba(122,88,166,0.5)", flexShrink: 0, paddingTop: "3px" }}>{p.num}</span>
                   <div>
-                    <p style={{ fontFamily: "'Space Grotesk', sans-serif", fontSize: "16px", fontWeight: 600, letterSpacing: "0.02em", marginBottom: "12px", color: "rgba(255,255,255,0.82)" }}>{p.title}</p>
+                    <p style={{ fontFamily: "'Noto Serif JP', serif", fontSize: "16px", fontWeight: 700, letterSpacing: "0.02em", marginBottom: "12px", color: "rgba(255,255,255,0.82)" }}>{p.title}</p>
                     <p style={{ fontFamily: "'Shippori Mincho', sans-serif", fontSize: "13px", lineHeight: 2.1, letterSpacing: "0.04em", color: "rgba(255,255,255,0.38)" }}>{p.body}</p>
                   </div>
                 </div>
