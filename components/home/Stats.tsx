@@ -62,8 +62,8 @@ export default function Stats() {
               <div className="divider-purple" style={{ position: "absolute", top: 0, left: 0, right: 0 }} />
               <p style={{ fontFamily: "'Space Grotesk', sans-serif", fontSize: "9px", letterSpacing: "0.22em", textTransform: "uppercase", color: "rgba(255,255,255,0.22)", marginBottom: "20px" }}>{s.en}</p>
               <div style={{ display: "flex", alignItems: "flex-end", gap: "4px", marginBottom: "10px" }}>
-                <span style={{ fontFamily: "'Space Grotesk', sans-serif", fontSize: "clamp(28px,4vw,44px)", fontWeight: 700, lineHeight: 1, letterSpacing: "-0.02em" }}>{s.value}</span>
-                <span style={{ fontFamily: "'Space Grotesk', sans-serif", fontSize: "clamp(16px,2vw,22px)", fontWeight: 500, lineHeight: 1.4, color: "#7A58A6" }}>{s.unit}</span>
+                <span style={{ fontFamily: "'Bebas Neue', sans-serif", fontSize: "clamp(32px,4vw,52px)", lineHeight: 1, letterSpacing: "0.02em" }}>{s.value}</span>
+                <span style={{ fontFamily: "'Bebas Neue', sans-serif", fontSize: "clamp(18px,2vw,26px)", lineHeight: 1.4, color: "#7A58A6" }}>{s.unit}</span>
               </div>
               <p style={{ fontFamily: "'Shippori Mincho', sans-serif", fontSize: "12px", lineHeight: 1.7, letterSpacing: "0.04em", color: "rgba(255,255,255,0.4)" }}>{s.label}</p>
             </motion.div>
