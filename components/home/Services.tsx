@@ -86,12 +86,44 @@ export default function Services() {
             >
               <div style={{ position: "absolute", top: 0, left: 0, right: 0, height: "0.5px", background: "linear-gradient(90deg, transparent, rgba(122,88,166,0.45), transparent)" }} />
 
-              {s.image && (
+              {s.image ? (
                 <div style={{ position: "relative", width: "100%", height: "180px", borderRadius: "8px", overflow: "hidden", marginBottom: "24px" }}>
                   <Image src={s.image} alt={s.title} fill style={{ objectFit: "cover", objectPosition: "center" }} sizes="(max-width: 768px) 100vw, 33vw" />
                   <div style={{ position: "absolute", inset: 0, background: "linear-gradient(to bottom, transparent 50%, rgba(0,0,0,0.5) 100%)" }} />
                 </div>
-              )}
+              ) : s.en === "Rapsodo PRO 2.0" ? (
+                <div style={{ width: "100%", height: "180px", borderRadius: "8px", overflow: "hidden", marginBottom: "24px", background: "rgba(122,88,166,0.06)", border: "0.5px solid rgba(122,88,166,0.18)", position: "relative", display: "flex", alignItems: "center", justifyContent: "center" }}>
+                  <svg viewBox="0 0 340 160" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" style={{ position: "absolute", inset: 0 }}>
+                    {/* grid lines */}
+                    {[0,1,2,3,4].map(n => (
+                      <line key={n} x1="20" y1={32 + n * 24} x2="320" y2={32 + n * 24} stroke="rgba(122,88,166,0.12)" strokeWidth="0.5" />
+                    ))}
+                    {/* ball path arc */}
+                    <path d="M 40 128 Q 180 20 300 80" fill="none" stroke="rgba(122,88,166,0.55)" strokeWidth="1.5" strokeDasharray="4 3" />
+                    {/* spin rings */}
+                    <circle cx="300" cy="80" r="22" fill="none" stroke="rgba(122,88,166,0.25)" strokeWidth="1" />
+                    <circle cx="300" cy="80" r="14" fill="none" stroke="rgba(122,88,166,0.18)" strokeWidth="0.8" />
+                    <circle cx="300" cy="80" r="6" fill="rgba(122,88,166,0.5)" />
+                    {/* seam line */}
+                    <path d="M 294 72 Q 300 80 306 88" fill="none" stroke="rgba(255,255,255,0.35)" strokeWidth="1.2" />
+                    <path d="M 294 88 Q 300 80 306 72" fill="none" stroke="rgba(255,255,255,0.35)" strokeWidth="1.2" />
+                    {/* data labels */}
+                    <text x="36" y="148" fontFamily="'Space Grotesk',sans-serif" fontSize="8" fill="rgba(255,255,255,0.28)" letterSpacing="0.08em">VELOCITY</text>
+                    <text x="36" y="138" fontFamily="'Bebas Neue',sans-serif" fontSize="16" fill="rgba(255,255,255,0.75)" letterSpacing="0.04em">148</text>
+                    <text x="74" y="138" fontFamily="'Space Grotesk',sans-serif" fontSize="8" fill="rgba(255,255,255,0.35)" dy="4">km/h</text>
+                    <text x="140" y="148" fontFamily="'Space Grotesk',sans-serif" fontSize="8" fill="rgba(255,255,255,0.28)" letterSpacing="0.08em">SPIN RATE</text>
+                    <text x="140" y="138" fontFamily="'Bebas Neue',sans-serif" fontSize="16" fill="rgba(122,88,166,0.9)" letterSpacing="0.04em">2340</text>
+                    <text x="182" y="138" fontFamily="'Space Grotesk',sans-serif" fontSize="8" fill="rgba(255,255,255,0.35)" dy="4">rpm</text>
+                    <text x="246" y="148" fontFamily="'Space Grotesk',sans-serif" fontSize="8" fill="rgba(255,255,255,0.28)" letterSpacing="0.08em">BREAK</text>
+                    <text x="246" y="138" fontFamily="'Bebas Neue',sans-serif" fontSize="16" fill="rgba(255,255,255,0.75)" letterSpacing="0.04em">38</text>
+                    <text x="265" y="138" fontFamily="'Space Grotesk',sans-serif" fontSize="8" fill="rgba(255,255,255,0.35)" dy="4">cm</text>
+                    {/* live dot */}
+                    <circle cx="40" cy="128" r="3" fill="rgba(122,88,166,0.8)" />
+                    <circle cx="40" cy="128" r="6" fill="none" stroke="rgba(122,88,166,0.35)" strokeWidth="1" />
+                  </svg>
+                  <div style={{ position: "absolute", top: "10px", right: "12px", fontFamily: "'Space Grotesk',sans-serif", fontSize: "7px", letterSpacing: "0.16em", color: "rgba(122,88,166,0.7)", textTransform: "uppercase" }}>● LIVE</div>
+                </div>
+              ) : null}
 
               <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: "24px" }}>
                 <p style={{ fontFamily: "'Space Grotesk', sans-serif", fontSize: "9px", letterSpacing: "0.22em", textTransform: "uppercase", color: "rgba(255,255,255,0.22)" }}>{s.en}</p>
