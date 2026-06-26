@@ -1,5 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
+import Image from "next/image";
 import { EASE } from "@/lib/motion";
 
 const services = [
@@ -9,6 +10,7 @@ const services = [
     tag: "完全個別",
     body: "身体力学・神経科学を統合した完全個別指導。再現性のある動作を設計し、確実な成果へ繋げます。",
     detail: ["完全マンツーマン", "再現性のある変化設計", "成果直結型指導"],
+    image: "/facility.jpg",
   },
   {
     en: "Online Salon",
@@ -23,6 +25,7 @@ const services = [
     tag: "施設設備",
     body: "当施設に4Dストレッチマシンを導入しています。セッションと組み合わせてご利用いただけます。",
     detail: ["施設内利用可", "セッションと組み合わせ可"],
+    image: "/stretch4d.jpg",
   },
   {
     en: "Rapsodo PRO 2.0",
@@ -30,6 +33,7 @@ const services = [
     tag: "最新機器",
     body: "投球データをリアルタイムで計測・可視化。球速・回転数・変化量・リリースポイントなどを数値化し、科学的な指導に活用します。",
     detail: ["球速・回転数・変化量を計測", "リアルタイムデータ分析", "客観指標で変化を可視化"],
+    image: null,
   },
   {
     en: "Team Support",
@@ -81,6 +85,13 @@ export default function Services() {
               style={{ borderRadius: "12px", padding: "36px 28px", position: "relative", overflow: "hidden", display: "flex", flexDirection: "column" }}
             >
               <div style={{ position: "absolute", top: 0, left: 0, right: 0, height: "0.5px", background: "linear-gradient(90deg, transparent, rgba(122,88,166,0.45), transparent)" }} />
+
+              {s.image && (
+                <div style={{ position: "relative", width: "100%", height: "180px", borderRadius: "8px", overflow: "hidden", marginBottom: "24px" }}>
+                  <Image src={s.image} alt={s.title} fill style={{ objectFit: "cover", objectPosition: "center" }} sizes="(max-width: 768px) 100vw, 33vw" />
+                  <div style={{ position: "absolute", inset: 0, background: "linear-gradient(to bottom, transparent 50%, rgba(0,0,0,0.5) 100%)" }} />
+                </div>
+              )}
 
               <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: "24px" }}>
                 <p style={{ fontFamily: "'Space Grotesk', sans-serif", fontSize: "9px", letterSpacing: "0.22em", textTransform: "uppercase", color: "rgba(255,255,255,0.22)" }}>{s.en}</p>
